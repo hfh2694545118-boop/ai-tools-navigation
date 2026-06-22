@@ -1,10 +1,10 @@
 ---
-title: "Low-Budget Stack for GEO tools for AI search visibility"
+title: "Low-Budget Stack for GEO Tools For AI Search Visibility"
 keyword: "GEO tools for AI search visibility"
-description: "Low-Budget Stack for GEO tools for AI search visibility for brands tracking ChatGPT and Perplexity visibility, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Low-Budget Stack for GEO Tools For AI Search Visibility for brands tracking ChatGPT and Perplexity visibility, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Low-Budget Stack for GEO tools for AI search visibility
+# Low-Budget Stack for GEO Tools For AI Search Visibility
 
 The keyword **GEO tools for AI search visibility** has commercial intent because the searcher is not just learning what AI is. They are trying to measure mentions in AI answer engines. For brands tracking ChatGPT and Perplexity visibility, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

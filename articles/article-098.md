@@ -1,10 +1,10 @@
 ---
-title: "Ecommerce Playbook for AI SEO tools comparison"
+title: "Ecommerce Playbook for AI SEO Tools Comparison"
 keyword: "AI SEO tools comparison"
-description: "Ecommerce Playbook for AI SEO tools comparison for commercial-intent searchers near a purchase decision, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Ecommerce Playbook for AI SEO Tools Comparison for commercial-intent searchers near a purchase decision, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Ecommerce Playbook for AI SEO tools comparison
+# Ecommerce Playbook for AI SEO Tools Comparison
 
 The keyword **AI SEO tools comparison** has commercial intent because the searcher is not just learning what AI is. They are trying to compare features, limits, and best use cases. For commercial-intent searchers near a purchase decision, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

@@ -1,10 +1,10 @@
 ---
-title: "How to Use AI content brief generator in a Real SEO Workflow"
+title: "How to Use AI Content Brief Generator in a Real SEO Workflow"
 keyword: "AI content brief generator"
-description: "How to Use AI content brief generator in a Real SEO Workflow for content managers assigning writers, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "How to Use AI Content Brief Generator in a Real SEO Workflow for content managers assigning writers, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# How to Use AI content brief generator in a Real SEO Workflow
+# How to Use AI Content Brief Generator in a Real SEO Workflow
 
 The keyword **AI content brief generator** has commercial intent because the searcher is not just learning what AI is. They are trying to turn SERP research into useful briefs. For content managers assigning writers, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

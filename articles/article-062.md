@@ -1,10 +1,10 @@
 ---
-title: "How to Use free AI SEO tools in a Real SEO Workflow"
+title: "How to Use Free AI SEO Tools in a Real SEO Workflow"
 keyword: "free AI SEO tools"
-description: "How to Use free AI SEO tools in a Real SEO Workflow for new sites before they buy paid software, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "How to Use Free AI SEO Tools in a Real SEO Workflow for new sites before they buy paid software, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# How to Use free AI SEO tools in a Real SEO Workflow
+# How to Use Free AI SEO Tools in a Real SEO Workflow
 
 The keyword **free AI SEO tools** has commercial intent because the searcher is not just learning what AI is. They are trying to start with a no-cost or low-cost SEO workflow. For new sites before they buy paid software, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

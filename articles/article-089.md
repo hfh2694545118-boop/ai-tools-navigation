@@ -1,10 +1,10 @@
 ---
-title: "Low-Budget Stack for AI SEO workflow"
+title: "Low-Budget Stack for AI SEO Workflow"
 keyword: "AI SEO workflow"
-description: "Low-Budget Stack for AI SEO workflow for teams building a repeatable publishing system, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Low-Budget Stack for AI SEO Workflow for teams building a repeatable publishing system, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Low-Budget Stack for AI SEO workflow
+# Low-Budget Stack for AI SEO Workflow
 
 The keyword **AI SEO workflow** has commercial intent because the searcher is not just learning what AI is. They are trying to connect keyword research, briefs, drafting, optimization, and updates. For teams building a repeatable publishing system, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

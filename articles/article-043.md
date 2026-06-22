@@ -1,10 +1,10 @@
 ---
-title: "Ecommerce Playbook for AI SEO audit tools"
+title: "Ecommerce Playbook for AI SEO Audit Tools"
 keyword: "AI SEO audit tools"
-description: "Ecommerce Playbook for AI SEO audit tools for consultants and technical SEO teams, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Ecommerce Playbook for AI SEO Audit Tools for consultants and technical SEO teams, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Ecommerce Playbook for AI SEO audit tools
+# Ecommerce Playbook for AI SEO Audit Tools
 
 The keyword **AI SEO audit tools** has commercial intent because the searcher is not just learning what AI is. They are trying to diagnose technical and content problems faster. For consultants and technical SEO teams, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

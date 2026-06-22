@@ -1,10 +1,10 @@
 ---
-title: "Case-Led Guide to AI content brief generator: Data, Cases, and Practical Steps"
+title: "Case-Led Guide to AI Content Brief Generator: Data, Cases, and Practical Steps"
 keyword: "AI content brief generator"
-description: "Case-Led Guide to AI content brief generator: Data, Cases, and Practical Steps for content managers assigning writers, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Case-Led Guide to AI Content Brief Generator: Data, Cases, and Practical Steps for content managers assigning writers, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Case-Led Guide to AI content brief generator: Data, Cases, and Practical Steps
+# Case-Led Guide to AI Content Brief Generator: Data, Cases, and Practical Steps
 
 The keyword **AI content brief generator** has commercial intent because the searcher is not just learning what AI is. They are trying to turn SERP research into useful briefs. For content managers assigning writers, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

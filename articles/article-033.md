@@ -1,10 +1,10 @@
 ---
-title: "Ecommerce Playbook for AI tools for SEO content writing"
+title: "Ecommerce Playbook for AI Tools For SEO Content Writing"
 keyword: "AI tools for SEO content writing"
-description: "Ecommerce Playbook for AI tools for SEO content writing for writers and SEO editors, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Ecommerce Playbook for AI Tools For SEO Content Writing for writers and SEO editors, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Ecommerce Playbook for AI tools for SEO content writing
+# Ecommerce Playbook for AI Tools For SEO Content Writing
 
 The keyword **AI tools for SEO content writing** has commercial intent because the searcher is not just learning what AI is. They are trying to create briefs and drafts with human review. For writers and SEO editors, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

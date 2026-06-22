@@ -1,10 +1,10 @@
 ---
-title: "Ecommerce Playbook for GEO tools for AI search visibility"
+title: "Ecommerce Playbook for GEO Tools For AI Search Visibility"
 keyword: "GEO tools for AI search visibility"
-description: "Ecommerce Playbook for GEO tools for AI search visibility for brands tracking ChatGPT and Perplexity visibility, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Ecommerce Playbook for GEO Tools For AI Search Visibility for brands tracking ChatGPT and Perplexity visibility, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Ecommerce Playbook for GEO tools for AI search visibility
+# Ecommerce Playbook for GEO Tools For AI Search Visibility
 
 The keyword **GEO tools for AI search visibility** has commercial intent because the searcher is not just learning what AI is. They are trying to measure mentions in AI answer engines. For brands tracking ChatGPT and Perplexity visibility, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

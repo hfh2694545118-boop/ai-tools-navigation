@@ -1,10 +1,10 @@
 ---
-title: "Low-Budget Stack for AI keyword research tools"
+title: "Low-Budget Stack for AI Keyword Research Tools"
 keyword: "AI keyword research tools"
-description: "Low-Budget Stack for AI keyword research tools for site owners building topic clusters, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Low-Budget Stack for AI Keyword Research Tools for site owners building topic clusters, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Low-Budget Stack for AI keyword research tools
+# Low-Budget Stack for AI Keyword Research Tools
 
 The keyword **AI keyword research tools** has commercial intent because the searcher is not just learning what AI is. They are trying to turn raw keywords into prioritized content plans. For site owners building topic clusters, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

@@ -330,11 +330,36 @@ function wordCount(markdown) {
 }
 
 function titleFor(topic, angle) {
-  if (angle.label === "tool comparison") return `${angle.titlePrefix} ${topic.keyword}: Evidence-Based Tool Comparison`;
-  if (angle.label === "workflow") return `${angle.titlePrefix} ${topic.keyword} in a Real SEO Workflow`;
-  if (angle.label === "ecommerce SEO") return `${angle.titlePrefix} ${topic.keyword}`;
-  if (angle.label === "small budget stack") return `${angle.titlePrefix} ${topic.keyword}`;
-  return `${angle.titlePrefix} ${topic.keyword}: Data, Cases, and Practical Steps`;
+  const cleanKeyword = titleCase(topic.keyword.replace(/^best\s+/i, ""));
+  if (angle.label === "tool comparison") return `Best ${cleanKeyword}: Evidence-Based Tool Comparison`;
+  if (angle.label === "workflow") return `${angle.titlePrefix} ${cleanKeyword} in a Real SEO Workflow`;
+  if (angle.label === "ecommerce SEO") return `${angle.titlePrefix} ${cleanKeyword}`;
+  if (angle.label === "small budget stack") return `${angle.titlePrefix} ${cleanKeyword}`;
+  return `${angle.titlePrefix} ${cleanKeyword}: Data, Cases, and Practical Steps`;
+}
+
+function titleCase(text) {
+  const acronyms = new Map([
+    ["ai", "AI"],
+    ["seo", "SEO"],
+    ["geo", "GEO"],
+    ["serp", "SERP"],
+    ["wordpress", "WordPress"],
+    ["semrush", "Semrush"],
+    ["ahrefs", "Ahrefs"],
+    ["frase", "Frase"],
+    ["surfer", "Surfer"],
+  ]);
+
+  return text
+    .split(" ")
+    .map((word) => {
+      const lower = word.toLowerCase();
+      if (acronyms.has(lower)) return acronyms.get(lower);
+      if (lower === "vs") return "vs";
+      return lower.charAt(0).toUpperCase() + lower.slice(1);
+    })
+    .join(" ");
 }
 
 function buildArticle(topic, angle, index) {

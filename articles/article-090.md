@@ -1,10 +1,10 @@
 ---
-title: "Case-Led Guide to AI SEO workflow: Data, Cases, and Practical Steps"
+title: "Case-Led Guide to AI SEO Workflow: Data, Cases, and Practical Steps"
 keyword: "AI SEO workflow"
-description: "Case-Led Guide to AI SEO workflow: Data, Cases, and Practical Steps for teams building a repeatable publishing system, with real data, a concrete case, source links, and a practical AI SEO execution plan."
+description: "Case-Led Guide to AI SEO Workflow: Data, Cases, and Practical Steps for teams building a repeatable publishing system, with real data, a concrete case, source links, and a practical AI SEO execution plan."
 ---
 
-# Case-Led Guide to AI SEO workflow: Data, Cases, and Practical Steps
+# Case-Led Guide to AI SEO Workflow: Data, Cases, and Practical Steps
 
 The keyword **AI SEO workflow** has commercial intent because the searcher is not just learning what AI is. They are trying to connect keyword research, briefs, drafting, optimization, and updates. For teams building a repeatable publishing system, the difference between a useful page and a thin page is evidence. A strong article should show what the tools actually do, where AI helps, where human review is still required, and how the reader can measure the result.
 

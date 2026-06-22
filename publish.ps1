@@ -58,8 +58,8 @@ if ($changes) {
 }
 
 $remoteUrl = $null
-git remote get-url origin *> $null
-if ($LASTEXITCODE -eq 0) {
+$remoteNames = @(& git remote)
+if ($remoteNames -contains "origin") {
   $remoteUrl = (& git remote get-url origin).Trim()
 }
 if (-not $remoteUrl) {

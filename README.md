@@ -9,7 +9,7 @@
 也可以在当前目录启动本地服务器，不需要安装任何 npm 包：
 
 ```powershell
-node server.js
+node local-server.js
 ```
 
 然后访问 `http://127.0.0.1:8080`。

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "title": "AI工具怎么用：个人效率筛选常用工具的SEO实操指南",
+    "keyword": "AI工具",
+    "file": "articles/article-001.md",
+    "html": "article-001.html",
+    "length": 798,
+    "description": "本文围绕AI工具，讲清楚个人效率如何在筛选常用工具中落地应用，并用可执行步骤帮助读者减少反复试用成本。"
+  },
+  {
+    "id": 2,
+    "title": "AI写作怎么用：内容运营搭建选题到成稿流程的SEO实操指南",
+    "keyword": "AI写作",
+    "file": "articles/article-002.md",
+    "html": "article-002.html",
+    "length": 806,
+    "description": "本文围绕AI写作，讲清楚内容运营如何在搭建选题到成稿流程中落地应用，并用可执行步骤帮助读者稳定输出文章。"
+  },
+  {
+    "id": 3,
+    "title": "AI绘画怎么用：设计新手生成海报和配图的SEO实操指南",
+    "keyword": "AI绘画",
+    "file": "articles/article-003.md",
+    "html": "article-003.html",
+    "length": 802,
+    "description": "本文围绕AI绘画，讲清楚设计新手如何在生成海报和配图中落地应用，并用可执行步骤帮助读者降低视觉制作门槛。"
+  },
+  {
+    "id": 4,
+    "title": "AI视频生成怎么用：短视频团队批量制作脚本和分镜的SEO实操指南",
+    "keyword": "AI视频生成",
+    "file": "articles/article-004.md",
+    "html": "article-004.html",
+    "length": 831,
+    "description": "本文围绕AI视频生成，讲清楚短视频团队如何在批量制作脚本和分镜中落地应用，并用可执行步骤帮助读者提升素材产出速度。"
+  },
+  {
+    "id": 5,
+    "title": "AI搜索怎么用：研究人员快速整理资料来源的SEO实操指南",
+    "keyword": "AI搜索",
+    "file": "articles/article-005.md",
+    "html": "article-005.html",
+    "length": 802,
+    "description": "本文围绕AI搜索，讲清楚研究人员如何在快速整理资料来源中落地应用，并用可执行步骤帮助读者缩短调研时间。"
+  },
+  {
+    "id": 6,
+    "title": "AI办公怎么用：职场新人处理邮件、纪要和周报的SEO实操指南",
+    "keyword": "AI办公",
+    "file": "articles/article-006.md",
+    "html": "article-006.html",
+    "length": 810,
+    "description": "本文围绕AI办公，讲清楚职场新人如何在处理邮件、纪要和周报中落地应用，并用可执行步骤帮助读者减少重复工作。"
+  },
+  {
+    "id": 7,
+    "title": "AI编程怎么用：开发者理解项目并修改代码的SEO实操指南",
+    "keyword": "AI编程",
+    "file": "articles/article-007.md",
+    "html": "article-007.html",
+    "length": 801,
+    "description": "本文围绕AI编程，讲清楚开发者如何在理解项目并修改代码中落地应用，并用可执行步骤帮助读者提升交付效率。"
+  },
+  {
+    "id": 8,
+    "title": "AI客服怎么用：中小商家回答高频售前问题的SEO实操指南",
+    "keyword": "AI客服",
+    "file": "articles/article-008.md",
+    "html": "article-008.html",
+    "length": 802,
+    "description": "本文围绕AI客服，讲清楚中小商家如何在回答高频售前问题中落地应用，并用可执行步骤帮助读者降低客服压力。"
+  },
+  {
+    "id": 9,
+    "title": "AI营销怎么用：增长团队生成活动方案和素材的SEO实操指南",
+    "keyword": "AI营销",
+    "file": "articles/article-009.md",
+    "html": "article-009.html",
+    "length": 810,
+    "description": "本文围绕AI营销，讲清楚增长团队如何在生成活动方案和素材中落地应用，并用可执行步骤帮助读者提升转化测试速度。"
+  },
+  {
+    "id": 10,
+    "title": "AI数据分析怎么用：运营团队读懂表格和指标的SEO实操指南",
+    "keyword": "AI数据分析",
+    "file": "articles/article-010.md",
+    "html": "article-010.html",
+    "length": 814,
+    "description": "本文围绕AI数据分析，讲清楚运营团队如何在读懂表格和指标中落地应用，并用可执行步骤帮助读者更快发现问题。"
+  },
+  {
+    "id": 11,
+    "title": "AI教育怎么用：老师设计课程和练习题的SEO实操指南",
+    "keyword": "AI教育",
+    "file": "articles/article-011.md",
+    "html": "article-011.html",
+    "length": 792,
+    "description": "本文围绕AI教育，讲清楚老师如何在设计课程和练习题中落地应用，并用可执行步骤帮助读者提升备课效率。"
+  },
+  {
+    "id": 12,
+    "title": "AI论文怎么用：学生梳理论文结构和文献摘要的SEO实操指南",
+    "keyword": "AI论文",
+    "file": "articles/article-012.md",
+    "html": "article-012.html",
+    "length": 804,
+    "description": "本文围绕AI论文，讲清楚学生如何在梳理论文结构和文献摘要中落地应用，并用可执行步骤帮助读者改善写作节奏。"
+  },
+  {
+    "id": 13,
+    "title": "AI简历怎么用：求职者优化简历表达的SEO实操指南",
+    "keyword": "AI简历",
+    "file": "articles/article-013.md",
+    "html": "article-013.html",
+    "length": 791,
+    "description": "本文围绕AI简历，讲清楚求职者如何在优化简历表达中落地应用，并用可执行步骤帮助读者提高岗位匹配度。"
+  },
+  {
+    "id": 14,
+    "title": "AI电商怎么用：店铺运营生成标题、详情页和客服话术的SEO实操指南",
+    "keyword": "AI电商",
+    "file": "articles/article-014.md",
+    "html": "article-014.html",
+    "length": 822,
+    "description": "本文围绕AI电商，讲清楚店铺运营如何在生成标题、详情页和客服话术中落地应用，并用可执行步骤帮助读者提升上架速度。"
+  },
+  {
+    "id": 15,
+    "title": "AI短视频怎么用：创作者拆解爆款脚本的SEO实操指南",
+    "keyword": "AI短视频",
+    "file": "articles/article-015.md",
+    "html": "article-015.html",
+    "length": 801,
+    "description": "本文围绕AI短视频，讲清楚创作者如何在拆解爆款脚本中落地应用，并用可执行步骤帮助读者形成稳定内容模板。"
+  },
+  {
+    "id": 16,
+    "title": "AI提示词怎么用：普通用户写出更清晰的指令的SEO实操指南",
+    "keyword": "AI提示词",
+    "file": "articles/article-016.md",
+    "html": "article-016.html",
+    "length": 812,
+    "description": "本文围绕AI提示词，讲清楚普通用户如何在写出更清晰的指令中落地应用，并用可执行步骤帮助读者得到更可控结果。"
+  },
+  {
+    "id": 17,
+    "title": "AI自动化怎么用：运营人员连接表单、邮件和表格的SEO实操指南",
+    "keyword": "AI自动化",
+    "file": "articles/article-017.md",
+    "html": "article-017.html",
+    "length": 818,
+    "description": "本文围绕AI自动化，讲清楚运营人员如何在连接表单、邮件和表格中落地应用，并用可执行步骤帮助读者减少手动搬运。"
+  },
+  {
+    "id": 18,
+    "title": "AI图片生成怎么用：品牌团队制作活动主视觉的SEO实操指南",
+    "keyword": "AI图片生成",
+    "file": "articles/article-018.md",
+    "html": "article-018.html",
+    "length": 818,
+    "description": "本文围绕AI图片生成，讲清楚品牌团队如何在制作活动主视觉中落地应用，并用可执行步骤帮助读者降低外包沟通成本。"
+  },
+  {
+    "id": 19,
+    "title": "AI语音怎么用：播客和课程作者生成配音和旁白的SEO实操指南",
+    "keyword": "AI语音",
+    "file": "articles/article-019.md",
+    "html": "article-019.html",
+    "length": 817,
+    "description": "本文围绕AI语音，讲清楚播客和课程作者如何在生成配音和旁白中落地应用，并用可执行步骤帮助读者提升音频制作效率。"
+  },
+  {
+    "id": 20,
+    "title": "AI会议纪要怎么用：项目团队整理录音和行动项的SEO实操指南",
+    "keyword": "AI会议纪要",
+    "file": "articles/article-020.md",
+    "html": "article-020.html",
+    "length": 818,
+    "description": "本文围绕AI会议纪要，讲清楚项目团队如何在整理录音和行动项中落地应用，并用可执行步骤帮助读者避免会后遗漏。"
+  },
+  {
+    "id": 21,
+    "title": "AI知识库怎么用：企业团队沉淀内部文档的SEO实操指南",
+    "keyword": "AI知识库",
+    "file": "articles/article-021.md",
+    "html": "article-021.html",
+    "length": 804,
+    "description": "本文围绕AI知识库，讲清楚企业团队如何在沉淀内部文档中落地应用，并用可执行步骤帮助读者让新人更快上手。"
+  },
+  {
+    "id": 22,
+    "title": "AI数字人怎么用：直播团队制作讲解和导购内容的SEO实操指南",
+    "keyword": "AI数字人",
+    "file": "articles/article-022.md",
+    "html": "article-022.html",
+    "length": 818,
+    "description": "本文围绕AI数字人，讲清楚直播团队如何在制作讲解和导购内容中落地应用，并用可执行步骤帮助读者延长内容服务时间。"
+  },
+  {
+    "id": 23,
+    "title": "AI翻译怎么用：跨境团队处理多语言文案的SEO实操指南",
+    "keyword": "AI翻译",
+    "file": "articles/article-023.md",
+    "html": "article-023.html",
+    "length": 800,
+    "description": "本文围绕AI翻译，讲清楚跨境团队如何在处理多语言文案中落地应用，并用可执行步骤帮助读者提升本地化效率。"
+  },
+  {
+    "id": 24,
+    "title": "AI产品经理怎么用：产品团队整理需求和原型说明的SEO实操指南",
+    "keyword": "AI产品经理",
+    "file": "articles/article-024.md",
+    "html": "article-024.html",
+    "length": 824,
+    "description": "本文围绕AI产品经理，讲清楚产品团队如何在整理需求和原型说明中落地应用，并用可执行步骤帮助读者提高沟通清晰度。"
+  },
+  {
+    "id": 25,
+    "title": "AI创业怎么用：早期团队验证想法和制作方案的SEO实操指南",
+    "keyword": "AI创业",
+    "file": "articles/article-025.md",
+    "html": "article-025.html",
+    "length": 806,
+    "description": "本文围绕AI创业，讲清楚早期团队如何在验证想法和制作方案中落地应用，并用可执行步骤帮助读者降低试错成本。"
+  },
+  {
+    "id": 26,
+    "title": "AI设计怎么用：UI设计师生成灵感板和组件说明的SEO实操指南",
+    "keyword": "AI设计",
+    "file": "articles/article-026.md",
+    "html": "article-026.html",
+    "length": 815,
+    "description": "本文围绕AI设计，讲清楚UI设计师如何在生成灵感板和组件说明中落地应用，并用可执行步骤帮助读者加快方案探索。"
+  },
+  {
+    "id": 27,
+    "title": "AI财务怎么用：小微企业整理报销和经营数据的SEO实操指南",
+    "keyword": "AI财务",
+    "file": "articles/article-027.md",
+    "html": "article-027.html",
+    "length": 810,
+    "description": "本文围绕AI财务，讲清楚小微企业如何在整理报销和经营数据中落地应用，并用可执行步骤帮助读者提升账务协作效率。"
+  },
+  {
+    "id": 28,
+    "title": "AI法务怎么用：创业公司初步梳理合同风险点的SEO实操指南",
+    "keyword": "AI法务",
+    "file": "articles/article-028.md",
+    "html": "article-028.html",
+    "length": 808,
+    "description": "本文围绕AI法务，讲清楚创业公司如何在初步梳理合同风险点中落地应用，并用可执行步骤帮助读者提高审阅效率。"
+  },
+  {
+    "id": 29,
+    "title": "AI人力资源怎么用：HR团队写岗位 JD 和面试题的SEO实操指南",
+    "keyword": "AI人力资源",
+    "file": "articles/article-029.md",
+    "html": "article-029.html",
+    "length": 822,
+    "description": "本文围绕AI人力资源，讲清楚HR团队如何在写岗位 JD 和面试题中落地应用，并用可执行步骤帮助读者提升招聘协作。"
+  },
+  {
+    "id": 30,
+    "title": "AI销售怎么用：销售团队生成跟进话术和客户摘要的SEO实操指南",
+    "keyword": "AI销售",
+    "file": "articles/article-030.md",
+    "html": "article-030.html",
+    "length": 814,
+    "description": "本文围绕AI销售，讲清楚销售团队如何在生成跟进话术和客户摘要中落地应用，并用可执行步骤帮助读者提高线索转化。"
+  },
+  {
+    "id": 31,
+    "title": "AI跨境电商怎么用：跨境卖家生成多语言商品内容的SEO实操指南",
+    "keyword": "AI跨境电商",
+    "file": "articles/article-031.md",
+    "html": "article-031.html",
+    "length": 822,
+    "description": "本文围绕AI跨境电商，讲清楚跨境卖家如何在生成多语言商品内容中落地应用，并用可执行步骤帮助读者提升上新效率。"
+  },
+  {
+    "id": 32,
+    "title": "AI内容运营怎么用：新媒体团队规划栏目和发布节奏的SEO实操指南",
+    "keyword": "AI内容运营",
+    "file": "articles/article-032.md",
+    "html": "article-032.html",
+    "length": 827,
+    "description": "本文围绕AI内容运营，讲清楚新媒体团队如何在规划栏目和发布节奏中落地应用，并用可执行步骤帮助读者稳定内容供给。"
+  },
+  {
+    "id": 33,
+    "title": "AI私域运营怎么用：社群运营设计欢迎语和活动话术的SEO实操指南",
+    "keyword": "AI私域运营",
+    "file": "articles/article-033.md",
+    "html": "article-033.html",
+    "length": 826,
+    "description": "本文围绕AI私域运营，讲清楚社群运营如何在设计欢迎语和活动话术中落地应用，并用可执行步骤帮助读者提高触达质量。"
+  },
+  {
+    "id": 34,
+    "title": "AI SEO怎么用：站长规划关键词和内容结构的SEO实操指南",
+    "keyword": "AI SEO",
+    "file": "articles/article-034.md",
+    "html": "article-034.html",
+    "length": 808,
+    "description": "本文围绕AI SEO，讲清楚站长如何在规划关键词和内容结构中落地应用，并用可执行步骤帮助读者提升自然流量。"
+  },
+  {
+    "id": 35,
+    "title": "AI自媒体怎么用：个人博主建立选题库和写作流程的SEO实操指南",
+    "keyword": "AI自媒体",
+    "file": "articles/article-035.md",
+    "html": "article-035.html",
+    "length": 818,
+    "description": "本文围绕AI自媒体，讲清楚个人博主如何在建立选题库和写作流程中落地应用，并用可执行步骤帮助读者提升更新频率。"
+  },
+  {
+    "id": 36,
+    "title": "AI小红书怎么用：种草账号生成笔记标题和正文的SEO实操指南",
+    "keyword": "AI小红书",
+    "file": "articles/article-036.md",
+    "html": "article-036.html",
+    "length": 818,
+    "description": "本文围绕AI小红书，讲清楚种草账号如何在生成笔记标题和正文中落地应用，并用可执行步骤帮助读者提高内容测试效率。"
+  },
+  {
+    "id": 37,
+    "title": "AI公众号怎么用：公众号作者规划长文和推送标题的SEO实操指南",
+    "keyword": "AI公众号",
+    "file": "articles/article-037.md",
+    "html": "article-037.html",
+    "length": 821,
+    "description": "本文围绕AI公众号，讲清楚公众号作者如何在规划长文和推送标题中落地应用，并用可执行步骤帮助读者提升阅读完成率。"
+  },
+  {
+    "id": 38,
+    "title": "AI直播怎么用：直播运营准备脚本和场控话术的SEO实操指南",
+    "keyword": "AI直播",
+    "file": "articles/article-038.md",
+    "html": "article-038.html",
+    "length": 802,
+    "description": "本文围绕AI直播，讲清楚直播运营如何在准备脚本和场控话术中落地应用，并用可执行步骤帮助读者减少冷场。"
+  },
+  {
+    "id": 39,
+    "title": "AI表格怎么用：行政和运营清洗数据并生成公式的SEO实操指南",
+    "keyword": "AI表格",
+    "file": "articles/article-039.md",
+    "html": "article-039.html",
+    "length": 811,
+    "description": "本文围绕AI表格，讲清楚行政和运营如何在清洗数据并生成公式中落地应用，并用可执行步骤帮助读者减少表格错误。"
+  },
+  {
+    "id": 40,
+    "title": "AI文档怎么用：团队协作者整理规范、方案和说明的SEO实操指南",
+    "keyword": "AI文档",
+    "file": "articles/article-040.md",
+    "html": "article-040.html",
+    "length": 815,
+    "description": "本文围绕AI文档，讲清楚团队协作者如何在整理规范、方案和说明中落地应用，并用可执行步骤帮助读者提升文档质量。"
+  },
+  {
+    "id": 41,
+    "title": "AI PPT怎么用：商务人员生成汇报结构和页面文案的SEO实操指南",
+    "keyword": "AI PPT",
+    "file": "articles/article-041.md",
+    "html": "article-041.html",
+    "length": 822,
+    "description": "本文围绕AI PPT，讲清楚商务人员如何在生成汇报结构和页面文案中落地应用，并用可执行步骤帮助读者缩短做稿时间。"
+  },
+  {
+    "id": 42,
+    "title": "AI思维导图怎么用：学习者梳理知识框架的SEO实操指南",
+    "keyword": "AI思维导图",
+    "file": "articles/article-042.md",
+    "html": "article-042.html",
+    "length": 805,
+    "description": "本文围绕AI思维导图，讲清楚学习者如何在梳理知识框架中落地应用，并用可执行步骤帮助读者增强记忆线索。"
+  },
+  {
+    "id": 43,
+    "title": "AI学习怎么用：自学者制定学习路径和复习计划的SEO实操指南",
+    "keyword": "AI学习",
+    "file": "articles/article-043.md",
+    "html": "article-043.html",
+    "length": 811,
+    "description": "本文围绕AI学习，讲清楚自学者如何在制定学习路径和复习计划中落地应用，并用可执行步骤帮助读者提高学习连续性。"
+  },
+  {
+    "id": 44,
+    "title": "AI效率工具怎么用：知识工作者搭建日常工作流的SEO实操指南",
+    "keyword": "AI效率工具",
+    "file": "articles/article-044.md",
+    "html": "article-044.html",
+    "length": 819,
+    "description": "本文围绕AI效率工具，讲清楚知识工作者如何在搭建日常工作流中落地应用，并用可执行步骤帮助读者节省碎片时间。"
+  },
+  {
+    "id": 45,
+    "title": "AI智能体怎么用：技术团队拆分任务并调用工具的SEO实操指南",
+    "keyword": "AI智能体",
+    "file": "articles/article-045.md",
+    "html": "article-045.html",
+    "length": 818,
+    "description": "本文围绕AI智能体，讲清楚技术团队如何在拆分任务并调用工具中落地应用，并用可执行步骤帮助读者提升自动执行能力。"
+  },
+  {
+    "id": 46,
+    "title": "AI代理怎么用：业务团队处理固定流程任务的SEO实操指南",
+    "keyword": "AI代理",
+    "file": "articles/article-046.md",
+    "html": "article-046.html",
+    "length": 802,
+    "description": "本文围绕AI代理，讲清楚业务团队如何在处理固定流程任务中落地应用，并用可执行步骤帮助读者减少人工等待。"
+  },
+  {
+    "id": 47,
+    "title": "AI工作流怎么用：企业运营串联内容、审批和发布的SEO实操指南",
+    "keyword": "AI工作流",
+    "file": "articles/article-047.md",
+    "html": "article-047.html",
+    "length": 820,
+    "description": "本文围绕AI工作流，讲清楚企业运营如何在串联内容、审批和发布中落地应用，并用可执行步骤帮助读者提高流程稳定性。"
+  },
+  {
+    "id": 48,
+    "title": "AI低代码怎么用：非技术团队制作内部小工具的SEO实操指南",
+    "keyword": "AI低代码",
+    "file": "articles/article-048.md",
+    "html": "article-048.html",
+    "length": 811,
+    "description": "本文围绕AI低代码，讲清楚非技术团队如何在制作内部小工具中落地应用，并用可执行步骤帮助读者降低开发门槛。"
+  },
+  {
+    "id": 49,
+    "title": "AI客户画像怎么用：市场团队整理用户标签和需求的SEO实操指南",
+    "keyword": "AI客户画像",
+    "file": "articles/article-049.md",
+    "html": "article-049.html",
+    "length": 824,
+    "description": "本文围绕AI客户画像，讲清楚市场团队如何在整理用户标签和需求中落地应用，并用可执行步骤帮助读者提升投放精准度。"
+  },
+  {
+    "id": 50,
+    "title": "AI竞品分析怎么用：产品和市场比较功能、价格和定位的SEO实操指南",
+    "keyword": "AI竞品分析",
+    "file": "articles/article-050.md",
+    "html": "article-050.html",
+    "length": 831,
+    "description": "本文围绕AI竞品分析，讲清楚产品和市场如何在比较功能、价格和定位中落地应用，并用可执行步骤帮助读者快速找到差异。"
+  },
+  {
+    "id": 51,
+    "title": "AI品牌营销怎么用：品牌负责人统一卖点和表达的SEO实操指南",
+    "keyword": "AI品牌营销",
+    "file": "articles/article-051.md",
+    "html": "article-051.html",
+    "length": 821,
+    "description": "本文围绕AI品牌营销，讲清楚品牌负责人如何在统一卖点和表达中落地应用，并用可执行步骤帮助读者提高传播一致性。"
+  },
+  {
+    "id": 52,
+    "title": "AI广告投放怎么用：投放优化师生成素材方向和测试文案的SEO实操指南",
+    "keyword": "AI广告投放",
+    "file": "articles/article-052.md",
+    "html": "article-052.html",
+    "length": 835,
+    "description": "本文围绕AI广告投放，讲清楚投放优化师如何在生成素材方向和测试文案中落地应用，并用可执行步骤帮助读者提升测试效率。"
+  },
+  {
+    "id": 53,
+    "title": "AI数据可视化怎么用：管理者解释图表和业务趋势的SEO实操指南",
+    "keyword": "AI数据可视化",
+    "file": "articles/article-053.md",
+    "html": "article-053.html",
+    "length": 825,
+    "description": "本文围绕AI数据可视化，讲清楚管理者如何在解释图表和业务趋势中落地应用，并用可执行步骤帮助读者提升决策速度。"
+  },
+  {
+    "id": 54,
+    "title": "AI商业计划书怎么用：创业者梳理市场、产品和财务假设的SEO实操指南",
+    "keyword": "AI商业计划书",
+    "file": "articles/article-054.md",
+    "html": "article-054.html",
+    "length": 841,
+    "description": "本文围绕AI商业计划书，讲清楚创业者如何在梳理市场、产品和财务假设中落地应用，并用可执行步骤帮助读者提高融资材料质量。"
+  },
+  {
+    "id": 55,
+    "title": "AI项目管理怎么用：项目经理拆解任务和跟踪风险的SEO实操指南",
+    "keyword": "AI项目管理",
+    "file": "articles/article-055.md",
+    "html": "article-055.html",
+    "length": 824,
+    "description": "本文围绕AI项目管理，讲清楚项目经理如何在拆解任务和跟踪风险中落地应用，并用可执行步骤帮助读者提升交付确定性。"
+  },
+  {
+    "id": 56,
+    "title": "AI产品原型怎么用：产品经理生成页面说明和交互文案的SEO实操指南",
+    "keyword": "AI产品原型",
+    "file": "articles/article-056.md",
+    "html": "article-056.html",
+    "length": 826,
+    "description": "本文围绕AI产品原型，讲清楚产品经理如何在生成页面说明和交互文案中落地应用，并用可执行步骤帮助读者加快评审。"
+  },
+  {
+    "id": 57,
+    "title": "AI用户研究怎么用：体验团队整理访谈记录和洞察的SEO实操指南",
+    "keyword": "AI用户研究",
+    "file": "articles/article-057.md",
+    "html": "article-057.html",
+    "length": 822,
+    "description": "本文围绕AI用户研究，讲清楚体验团队如何在整理访谈记录和洞察中落地应用，并用可执行步骤帮助读者提升研究效率。"
+  },
+  {
+    "id": 58,
+    "title": "AI面试怎么用：求职者模拟问答和复盘表达的SEO实操指南",
+    "keyword": "AI面试",
+    "file": "articles/article-058.md",
+    "html": "article-058.html",
+    "length": 801,
+    "description": "本文围绕AI面试，讲清楚求职者如何在模拟问答和复盘表达中落地应用，并用可执行步骤帮助读者提升面试准备。"
+  },
+  {
+    "id": 59,
+    "title": "AI招聘怎么用：招聘团队筛选简历和设计面试流程的SEO实操指南",
+    "keyword": "AI招聘",
+    "file": "articles/article-059.md",
+    "html": "article-059.html",
+    "length": 814,
+    "description": "本文围绕AI招聘，讲清楚招聘团队如何在筛选简历和设计面试流程中落地应用，并用可执行步骤帮助读者提高沟通效率。"
+  },
+  {
+    "id": 60,
+    "title": "AI培训怎么用：企业内训生成课程大纲和练习的SEO实操指南",
+    "keyword": "AI培训",
+    "file": "articles/article-060.md",
+    "html": "article-060.html",
+    "length": 810,
+    "description": "本文围绕AI培训，讲清楚企业内训如何在生成课程大纲和练习中落地应用，并用可执行步骤帮助读者降低培训准备成本。"
+  },
+  {
+    "id": 61,
+    "title": "AI合同审查怎么用：业务负责人标记条款疑点的SEO实操指南",
+    "keyword": "AI合同审查",
+    "file": "articles/article-061.md",
+    "html": "article-061.html",
+    "length": 819,
+    "description": "本文围绕AI合同审查，讲清楚业务负责人如何在标记条款疑点中落地应用，并用可执行步骤帮助读者提升合同沟通效率。"
+  },
+  {
+    "id": 62,
+    "title": "AI风险控制怎么用：运营管理识别流程异常和重复问题的SEO实操指南",
+    "keyword": "AI风险控制",
+    "file": "articles/article-062.md",
+    "html": "article-062.html",
+    "length": 830,
+    "description": "本文围绕AI风险控制，讲清楚运营管理如何在识别流程异常和重复问题中落地应用，并用可执行步骤帮助读者提升预警能力。"
+  },
+  {
+    "id": 63,
+    "title": "AI医疗科普怎么用：科普作者整理通俗解释和问答的SEO实操指南",
+    "keyword": "AI医疗科普",
+    "file": "articles/article-063.md",
+    "html": "article-063.html",
+    "length": 826,
+    "description": "本文围绕AI医疗科普，讲清楚科普作者如何在整理通俗解释和问答中落地应用，并用可执行步骤帮助读者提高内容清晰度。"
+  },
+  {
+    "id": 64,
+    "title": "AI心理陪伴怎么用：内容产品设计情绪记录和陪伴话术的SEO实操指南",
+    "keyword": "AI心理陪伴",
+    "file": "articles/article-064.md",
+    "html": "article-064.html",
+    "length": 830,
+    "description": "本文围绕AI心理陪伴，讲清楚内容产品如何在设计情绪记录和陪伴话术中落地应用，并用可执行步骤帮助读者提升体验温度。"
+  },
+  {
+    "id": 65,
+    "title": "AI健身计划怎么用：健身教练生成训练记录和课程文案的SEO实操指南",
+    "keyword": "AI健身计划",
+    "file": "articles/article-065.md",
+    "html": "article-065.html",
+    "length": 830,
+    "description": "本文围绕AI健身计划，讲清楚健身教练如何在生成训练记录和课程文案中落地应用，并用可执行步骤帮助读者提升服务效率。"
+  },
+  {
+    "id": 66,
+    "title": "AI旅游规划怎么用：旅行博主设计路线和预算清单的SEO实操指南",
+    "keyword": "AI旅游规划",
+    "file": "articles/article-066.md",
+    "html": "article-066.html",
+    "length": 822,
+    "description": "本文围绕AI旅游规划，讲清楚旅行博主如何在设计路线和预算清单中落地应用，并用可执行步骤帮助读者提升攻略质量。"
+  },
+  {
+    "id": 67,
+    "title": "AI餐饮菜单怎么用：餐饮商家优化菜品命名和促销文案的SEO实操指南",
+    "keyword": "AI餐饮菜单",
+    "file": "articles/article-067.md",
+    "html": "article-067.html",
+    "length": 830,
+    "description": "本文围绕AI餐饮菜单，讲清楚餐饮商家如何在优化菜品命名和促销文案中落地应用，并用可执行步骤帮助读者提高点单转化。"
+  },
+  {
+    "id": 68,
+    "title": "AI房地产文案怎么用：房产顾问生成楼盘介绍和客户问答的SEO实操指南",
+    "keyword": "AI房地产文案",
+    "file": "articles/article-068.md",
+    "html": "article-068.html",
+    "length": 838,
+    "description": "本文围绕AI房地产文案，讲清楚房产顾问如何在生成楼盘介绍和客户问答中落地应用，并用可执行步骤帮助读者提高沟通效率。"
+  },
+  {
+    "id": 69,
+    "title": "AI保险内容怎么用：保险从业者解释产品概念和服务流程的SEO实操指南",
+    "keyword": "AI保险内容",
+    "file": "articles/article-069.md",
+    "html": "article-069.html",
+    "length": 837,
+    "description": "本文围绕AI保险内容，讲清楚保险从业者如何在解释产品概念和服务流程中落地应用，并用可执行步骤帮助读者提升内容透明度。"
+  },
+  {
+    "id": 70,
+    "title": "AI金融分析怎么用：财经作者整理公开数据和观点框架的SEO实操指南",
+    "keyword": "AI金融分析",
+    "file": "articles/article-070.md",
+    "html": "article-070.html",
+    "length": 830,
+    "description": "本文围绕AI金融分析，讲清楚财经作者如何在整理公开数据和观点框架中落地应用，并用可执行步骤帮助读者提高写作效率。"
+  },
+  {
+    "id": 71,
+    "title": "AI投资研究怎么用：投资学习者汇总公开资料和风险清单的SEO实操指南",
+    "keyword": "AI投资研究",
+    "file": "articles/article-071.md",
+    "html": "article-071.html",
+    "length": 835,
+    "description": "本文围绕AI投资研究，讲清楚投资学习者如何在汇总公开资料和风险清单中落地应用，并用可执行步骤帮助读者提升研究纪律。"
+  },
+  {
+    "id": 72,
+    "title": "AI股票复盘怎么用：财经自媒体整理交易记录和市场事件的SEO实操指南",
+    "keyword": "AI股票复盘",
+    "file": "articles/article-072.md",
+    "html": "article-072.html",
+    "length": 835,
+    "description": "本文围绕AI股票复盘，讲清楚财经自媒体如何在整理交易记录和市场事件中落地应用，并用可执行步骤帮助读者提高复盘质量。"
+  },
+  {
+    "id": 73,
+    "title": "AI法律文书怎么用：法律从业者起草常见文书框架的SEO实操指南",
+    "keyword": "AI法律文书",
+    "file": "articles/article-073.md",
+    "html": "article-073.html",
+    "length": 825,
+    "description": "本文围绕AI法律文书，讲清楚法律从业者如何在起草常见文书框架中落地应用，并用可执行步骤帮助读者提升初稿效率。"
+  },
+  {
+    "id": 74,
+    "title": "AI公文写作怎么用：行政人员生成通知、总结和请示的SEO实操指南",
+    "keyword": "AI公文写作",
+    "file": "articles/article-074.md",
+    "html": "article-074.html",
+    "length": 826,
+    "description": "本文围绕AI公文写作，讲清楚行政人员如何在生成通知、总结和请示中落地应用，并用可执行步骤帮助读者提升文字规范。"
+  },
+  {
+    "id": 75,
+    "title": "AI邮件写作怎么用：商务人士撰写开发信和跟进邮件的SEO实操指南",
+    "keyword": "AI邮件写作",
+    "file": "articles/article-075.md",
+    "html": "article-075.html",
+    "length": 824,
+    "description": "本文围绕AI邮件写作，讲清楚商务人士如何在撰写开发信和跟进邮件中落地应用，并用可执行步骤帮助读者提高回复率。"
+  },
+  {
+    "id": 76,
+    "title": "AI脚本写作怎么用：视频创作者设计开头、冲突和结尾的SEO实操指南",
+    "keyword": "AI脚本写作",
+    "file": "articles/article-076.md",
+    "html": "article-076.html",
+    "length": 829,
+    "description": "本文围绕AI脚本写作，讲清楚视频创作者如何在设计开头、冲突和结尾中落地应用，并用可执行步骤帮助读者提升完播率。"
+  },
+  {
+    "id": 77,
+    "title": "AI故事生成怎么用：小说作者搭建人物和情节线的SEO实操指南",
+    "keyword": "AI故事生成",
+    "file": "articles/article-077.md",
+    "html": "article-077.html",
+    "length": 818,
+    "description": "本文围绕AI故事生成，讲清楚小说作者如何在搭建人物和情节线中落地应用，并用可执行步骤帮助读者突破创作卡点。"
+  },
+  {
+    "id": 78,
+    "title": "AI游戏策划怎么用：游戏团队生成玩法、关卡和道具设定的SEO实操指南",
+    "keyword": "AI游戏策划",
+    "file": "articles/article-078.md",
+    "html": "article-078.html",
+    "length": 834,
+    "description": "本文围绕AI游戏策划，讲清楚游戏团队如何在生成玩法、关卡和道具设定中落地应用，并用可执行步骤帮助读者提高原型速度。"
+  },
+  {
+    "id": 79,
+    "title": "AI音乐生成怎么用：音乐爱好者生成旋律、歌词和编曲方向的SEO实操指南",
+    "keyword": "AI音乐生成",
+    "file": "articles/article-079.md",
+    "html": "article-079.html",
+    "length": 839,
+    "description": "本文围绕AI音乐生成，讲清楚音乐爱好者如何在生成旋律、歌词和编曲方向中落地应用，并用可执行步骤帮助读者降低创作门槛。"
+  },
+  {
+    "id": 80,
+    "title": "AI播客怎么用：播客主准备选题、提纲和标题的SEO实操指南",
+    "keyword": "AI播客",
+    "file": "articles/article-080.md",
+    "html": "article-080.html",
+    "length": 809,
+    "description": "本文围绕AI播客，讲清楚播客主如何在准备选题、提纲和标题中落地应用，并用可执行步骤帮助读者提升节目生产效率。"
+  },
+  {
+    "id": 81,
+    "title": "AI字幕生成怎么用：视频团队生成字幕和摘要的SEO实操指南",
+    "keyword": "AI字幕生成",
+    "file": "articles/article-081.md",
+    "html": "article-081.html",
+    "length": 814,
+    "description": "本文围绕AI字幕生成，讲清楚视频团队如何在生成字幕和摘要中落地应用，并用可执行步骤帮助读者提升剪辑效率。"
+  },
+  {
+    "id": 82,
+    "title": "AI图片修复怎么用：摄影师修补老照片和产品图的SEO实操指南",
+    "keyword": "AI图片修复",
+    "file": "articles/article-082.md",
+    "html": "article-082.html",
+    "length": 817,
+    "description": "本文围绕AI图片修复，讲清楚摄影师如何在修补老照片和产品图中落地应用，并用可执行步骤帮助读者减少后期时间。"
+  },
+  {
+    "id": 83,
+    "title": "AI Logo设计怎么用：创业团队探索品牌符号和配色的SEO实操指南",
+    "keyword": "AI Logo设计",
+    "file": "articles/article-083.md",
+    "html": "article-083.html",
+    "length": 838,
+    "description": "本文围绕AI Logo设计，讲清楚创业团队如何在探索品牌符号和配色中落地应用，并用可执行步骤帮助读者加快视觉验证。"
+  },
+  {
+    "id": 84,
+    "title": "AI UI设计怎么用：产品设计师生成页面草图和文案的SEO实操指南",
+    "keyword": "AI UI设计",
+    "file": "articles/article-084.md",
+    "html": "article-084.html",
+    "length": 827,
+    "description": "本文围绕AI UI设计，讲清楚产品设计师如何在生成页面草图和文案中落地应用，并用可执行步骤帮助读者提升迭代速度。"
+  },
+  {
+    "id": 85,
+    "title": "AI网页设计怎么用：站长生成落地页结构和模块的SEO实操指南",
+    "keyword": "AI网页设计",
+    "file": "articles/article-085.md",
+    "html": "article-085.html",
+    "length": 816,
+    "description": "本文围绕AI网页设计，讲清楚站长如何在生成落地页结构和模块中落地应用，并用可执行步骤帮助读者提升上线速度。"
+  },
+  {
+    "id": 86,
+    "title": "AI前端开发怎么用：前端工程师生成组件和样式思路的SEO实操指南",
+    "keyword": "AI前端开发",
+    "file": "articles/article-086.md",
+    "html": "article-086.html",
+    "length": 827,
+    "description": "本文围绕AI前端开发，讲清楚前端工程师如何在生成组件和样式思路中落地应用，并用可执行步骤帮助读者提高开发效率。"
+  },
+  {
+    "id": 87,
+    "title": "AI后端开发怎么用：后端工程师整理接口和测试用例的SEO实操指南",
+    "keyword": "AI后端开发",
+    "file": "articles/article-087.md",
+    "html": "article-087.html",
+    "length": 827,
+    "description": "本文围绕AI后端开发，讲清楚后端工程师如何在整理接口和测试用例中落地应用，并用可执行步骤帮助读者降低沟通成本。"
+  },
+  {
+    "id": 88,
+    "title": "AI测试用例怎么用：测试团队生成边界场景和回归清单的SEO实操指南",
+    "keyword": "AI测试用例",
+    "file": "articles/article-088.md",
+    "html": "article-088.html",
+    "length": 830,
+    "description": "本文围绕AI测试用例，讲清楚测试团队如何在生成边界场景和回归清单中落地应用，并用可执行步骤帮助读者提升测试覆盖。"
+  },
+  {
+    "id": 89,
+    "title": "AI运维怎么用：运维人员整理告警和排障步骤的SEO实操指南",
+    "keyword": "AI运维",
+    "file": "articles/article-089.md",
+    "html": "article-089.html",
+    "length": 806,
+    "description": "本文围绕AI运维，讲清楚运维人员如何在整理告警和排障步骤中落地应用，并用可执行步骤帮助读者缩短响应时间。"
+  },
+  {
+    "id": 90,
+    "title": "AI安全怎么用：安全团队梳理风险清单和检查项的SEO实操指南",
+    "keyword": "AI安全",
+    "file": "articles/article-090.md",
+    "html": "article-090.html",
+    "length": 810,
+    "description": "本文围绕AI安全，讲清楚安全团队如何在梳理风险清单和检查项中落地应用，并用可执行步骤帮助读者提升防护意识。"
+  },
+  {
+    "id": 91,
+    "title": "AI数据库怎么用：数据团队生成 SQL 和解释查询结果的SEO实操指南",
+    "keyword": "AI数据库",
+    "file": "articles/article-091.md",
+    "html": "article-091.html",
+    "length": 826,
+    "description": "本文围绕AI数据库，讲清楚数据团队如何在生成 SQL 和解释查询结果中落地应用，并用可执行步骤帮助读者提高分析效率。"
+  },
+  {
+    "id": 92,
+    "title": "AI CRM怎么用：销售管理整理客户记录和跟进提醒的SEO实操指南",
+    "keyword": "AI CRM",
+    "file": "articles/article-092.md",
+    "html": "article-092.html",
+    "length": 822,
+    "description": "本文围绕AI CRM，讲清楚销售管理如何在整理客户记录和跟进提醒中落地应用，并用可执行步骤帮助读者提升客户维护。"
+  },
+  {
+    "id": 93,
+    "title": "AI ERP怎么用：制造企业辅助整理订单和库存说明的SEO实操指南",
+    "keyword": "AI ERP",
+    "file": "articles/article-093.md",
+    "html": "article-093.html",
+    "length": 824,
+    "description": "本文围绕AI ERP，讲清楚制造企业如何在辅助整理订单和库存说明中落地应用，并用可执行步骤帮助读者提升流程透明度。"
+  },
+  {
+    "id": 94,
+    "title": "AI供应链怎么用：采购团队分析需求、库存和交付风险的SEO实操指南",
+    "keyword": "AI供应链",
+    "file": "articles/article-094.md",
+    "html": "article-094.html",
+    "length": 826,
+    "description": "本文围绕AI供应链，讲清楚采购团队如何在分析需求、库存和交付风险中落地应用，并用可执行步骤帮助读者提高协同效率。"
+  },
+  {
+    "id": 95,
+    "title": "AI客服质检怎么用：客服主管分析对话质量和改进点的SEO实操指南",
+    "keyword": "AI客服质检",
+    "file": "articles/article-095.md",
+    "html": "article-095.html",
+    "length": 826,
+    "description": "本文围绕AI客服质检，讲清楚客服主管如何在分析对话质量和改进点中落地应用，并用可执行步骤帮助读者提升服务标准。"
+  },
+  {
+    "id": 96,
+    "title": "AI舆情监测怎么用：公关团队整理评论、媒体和风险信号的SEO实操指南",
+    "keyword": "AI舆情监测",
+    "file": "articles/article-096.md",
+    "html": "article-096.html",
+    "length": 834,
+    "description": "本文围绕AI舆情监测，讲清楚公关团队如何在整理评论、媒体和风险信号中落地应用，并用可执行步骤帮助读者提升响应速度。"
+  },
+  {
+    "id": 97,
+    "title": "AI社区运营怎么用：社区负责人设计活动和用户分层的SEO实操指南",
+    "keyword": "AI社区运营",
+    "file": "articles/article-097.md",
+    "html": "article-097.html",
+    "length": 825,
+    "description": "本文围绕AI社区运营，讲清楚社区负责人如何在设计活动和用户分层中落地应用，并用可执行步骤帮助读者提升活跃度。"
+  },
+  {
+    "id": 98,
+    "title": "AI知识付费怎么用：课程团队生成课程包装和交付材料的SEO实操指南",
+    "keyword": "AI知识付费",
+    "file": "articles/article-098.md",
+    "html": "article-098.html",
+    "length": 830,
+    "description": "本文围绕AI知识付费，讲清楚课程团队如何在生成课程包装和交付材料中落地应用，并用可执行步骤帮助读者提升转化效率。"
+  },
+  {
+    "id": 99,
+    "title": "AI本地部署怎么用：技术爱好者搭建私有模型环境的SEO实操指南",
+    "keyword": "AI本地部署",
+    "file": "articles/article-099.md",
+    "html": "article-099.html",
+    "length": 825,
+    "description": "本文围绕AI本地部署，讲清楚技术爱好者如何在搭建私有模型环境中落地应用，并用可执行步骤帮助读者提升数据控制感。"
+  },
+  {
+    "id": 100,
+    "title": "AI模型选择怎么用：企业团队比较模型能力、成本和安全边界的SEO实操指南",
+    "keyword": "AI模型选择",
+    "file": "articles/article-100.md",
+    "html": "article-100.html",
+    "length": 842,
+    "description": "本文围绕AI模型选择，讲清楚企业团队如何在比较模型能力、成本和安全边界中落地应用，并用可执行步骤帮助读者减少选型偏差。"
+  }
+]

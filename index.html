@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI Pilot 是一个简洁深色调的 AI 工具导航网站，支持分类、搜索、筛选、收藏和广告位。"
+    />
+    <title>AI Pilot | AI 工具导航</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="主导航">
+        <a class="brand" href="#" aria-label="AI Pilot 首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI Pilot</strong>
+            <small>工具导航</small>
+          </span>
+        </a>
+
+        <div class="nav-links" aria-label="页面快捷入口">
+          <a href="#tools">工具库</a>
+          <a href="#categories">分类</a>
+          <a href="articles/index.html">AI文章</a>
+          <a href="#ads">广告合作</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">精选、可搜索、可扩展</p>
+          <h1 id="hero-title">把常用 AI 工具整理成一张清爽的深色导航图。</h1>
+          <p class="hero-text">
+            适合个人站长、团队内部门户或垂直 AI 资源站。分类、搜索、筛选、收藏和广告位都已经内置，直接修改
+            <code>script.js</code> 里的数据即可维护。
+          </p>
+          <div class="hero-actions" aria-label="核心操作">
+            <a class="button primary" href="#tools">浏览工具</a>
+            <a class="button secondary" href="#ads">查看广告位</a>
+          </div>
+        </div>
+
+        <aside class="terminal-card" aria-label="站点数据概览">
+          <div class="terminal-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <dl class="metrics">
+            <div>
+              <dt>分类</dt>
+              <dd id="metricCategories">0</dd>
+            </div>
+            <div>
+              <dt>工具</dt>
+              <dd id="metricTools">0</dd>
+            </div>
+            <div>
+              <dt>广告位</dt>
+              <dd>4</dd>
+            </div>
+          </dl>
+          <p class="terminal-line">status: navigation_ready</p>
+          <p class="terminal-line">mode: dark_compact</p>
+          <p class="terminal-line">data: editable_in_script.js</p>
+        </aside>
+      </section>
+
+      <section id="ads" class="section-shell">
+        <a class="ad-slot ad-leaderboard" href="#" aria-label="顶部横幅广告位">
+          <span>广告位 A</span>
+          <strong>顶部横幅 1200 × 120</strong>
+          <small>可放品牌活动、SaaS 推荐、联盟链接</small>
+        </a>
+      </section>
+
+      <section id="tools" class="directory section-shell" aria-labelledby="tools-title">
+        <div class="directory-head">
+          <div>
+            <p class="eyebrow">Tool directory</p>
+            <h2 id="tools-title">AI 工具库</h2>
+          </div>
+          <div class="search-panel">
+            <label class="sr-only" for="searchInput">搜索工具</label>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="搜索：写作、图片、代码、办公..."
+              autocomplete="off"
+            />
+            <button id="clearSearch" class="icon-button" type="button" aria-label="清空搜索">
+              ×
+            </button>
+          </div>
+        </div>
+
+        <div class="toolbar" aria-label="工具筛选">
+          <div id="categoryTabs" class="tabs" role="tablist" aria-label="工具分类"></div>
+          <div class="toggles" aria-label="快速筛选">
+            <label>
+              <input id="featuredOnly" type="checkbox" />
+              只看精选
+            </label>
+            <label>
+              <input id="freeOnly" type="checkbox" />
+              含免费版
+            </label>
+          </div>
+        </div>
+
+        <div class="content-grid">
+          <aside class="sidebar" aria-labelledby="categories-title">
+            <section id="categories" class="side-panel">
+              <h2 id="categories-title">分类概览</h2>
+              <div id="categorySummary" class="category-summary"></div>
+            </section>
+
+            <a class="ad-slot ad-vertical" href="#" aria-label="侧栏广告位">
+              <span>广告位 B</span>
+              <strong>侧栏竖版</strong>
+              <small>300 × 420，适合长期合作展示</small>
+            </a>
+          </aside>
+
+          <section class="results-panel" aria-live="polite" aria-busy="false">
+            <div class="result-meta">
+              <span id="resultCount">0 个工具</span>
+              <button id="resetFilters" class="text-button" type="button">重置筛选</button>
+            </div>
+            <div id="toolGrid" class="tool-grid"></div>
+            <div id="emptyState" class="empty-state" hidden>
+              <h3>没有找到匹配工具</h3>
+              <p>换个关键词，或者重置筛选看看。</p>
+              <button class="button secondary" type="button" data-reset>重置筛选</button>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="section-shell sponsor-row" aria-label="更多广告位">
+        <a class="ad-slot ad-inline" href="#">
+          <span>广告位 C</span>
+          <strong>工具列表中插</strong>
+          <small>适合新品发布、限时折扣</small>
+        </a>
+        <a class="ad-slot ad-inline" href="#">
+          <span>广告位 D</span>
+          <strong>底部合作位</strong>
+          <small>适合公众号、社群、课程导流</small>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p>AI Pilot © 2026. 修改工具和广告内容请编辑 <code>script.js</code>。</p>
+      <a href="#hero-title">返回顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -423,6 +423,25 @@ h3 {
   line-height: 1.45;
 }
 
+.primary-channel {
+  border-color: rgba(79, 212, 200, 0.62);
+  background:
+    linear-gradient(180deg, rgba(79, 212, 200, 0.14), transparent 42%),
+    rgba(15, 20, 27, 0.92);
+}
+
+.secondary-channel {
+  border-color: rgba(244, 197, 106, 0.42);
+}
+
+.secondary-channel span {
+  color: var(--warn);
+}
+
+.paused-channel {
+  opacity: 0.72;
+}
+
 .compact-list {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }

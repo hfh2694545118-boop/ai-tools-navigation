@@ -1,146 +1,246 @@
 const categories = [
-  { id: "all", name: "全部" },
-  { id: "writing", name: "写作办公" },
-  { id: "image", name: "图像设计" },
-  { id: "code", name: "代码开发" },
-  { id: "video", name: "音视频" },
-  { id: "productivity", name: "效率自动化" },
-  { id: "research", name: "搜索研究" },
+  { id: "all", name: "All" },
+  { id: "content", name: "Content Optimization" },
+  { id: "keyword", name: "Keyword Research" },
+  { id: "technical", name: "Technical SEO" },
+  { id: "ecommerce", name: "Ecommerce SEO" },
+  { id: "wordpress", name: "WordPress SEO" },
+  { id: "ai-search", name: "AI Search Visibility" },
+  { id: "automation", name: "Workflow Automation" },
 ];
 
 const tools = [
   {
+    name: "Semrush",
+    category: "keyword",
+    desc: "All-in-one SEO platform for keyword research, competitor analysis, site audits, content planning, and rank tracking.",
+    url: "https://www.semrush.com/",
+    tags: ["keywords", "rank tracking", "audits"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Ahrefs",
+    category: "keyword",
+    desc: "SEO platform known for backlink data, keyword research, competitor analysis, site audits, and content opportunities.",
+    url: "https://ahrefs.com/",
+    tags: ["backlinks", "keywords", "competitors"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Surfer SEO",
+    category: "content",
+    desc: "Content optimization platform for SERP analysis, content scoring, briefs, outlines, and on-page recommendations.",
+    url: "https://surferseo.com/",
+    tags: ["content score", "SERP", "briefs"],
+    featured: true,
+    free: false,
+  },
+  {
+    name: "Frase",
+    category: "content",
+    desc: "AI SEO platform for research, briefs, content optimization, and visibility tracking across search and answer engines.",
+    url: "https://www.frase.io/",
+    tags: ["briefs", "optimization", "AI search"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Clearscope",
+    category: "content",
+    desc: "Content optimization tool for improving topical coverage, writer briefs, and editor review workflows.",
+    url: "https://www.clearscope.io/",
+    tags: ["topical coverage", "editing", "briefs"],
+    featured: true,
+    free: false,
+  },
+  {
+    name: "MarketMuse",
+    category: "content",
+    desc: "Content planning and optimization platform for topic modeling, inventory analysis, and authority building.",
+    url: "https://www.marketmuse.com/",
+    tags: ["topic modeling", "planning", "authority"],
+    featured: false,
+    free: true,
+  },
+  {
+    name: "SE Ranking",
+    category: "keyword",
+    desc: "SEO software for keyword research, rank tracking, competitor research, audits, and content marketing workflows.",
+    url: "https://seranking.com/",
+    tags: ["rank tracking", "audits", "competitors"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "LowFruits",
+    category: "keyword",
+    desc: "Keyword research tool for finding low-competition opportunities and weak spots in search results.",
+    url: "https://lowfruits.io/",
+    tags: ["low competition", "niche sites", "keywords"],
+    featured: false,
+    free: true,
+  },
+  {
+    name: "Google Search Console",
+    category: "technical",
+    desc: "Free Google tool for measuring search performance, indexing status, query data, and technical search issues.",
+    url: "https://search.google.com/search-console/about",
+    tags: ["free", "queries", "indexing"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Screaming Frog SEO Spider",
+    category: "technical",
+    desc: "Desktop crawler for auditing URLs, metadata, canonicals, status codes, internal links, and structured data.",
+    url: "https://www.screamingfrog.co.uk/seo-spider/",
+    tags: ["crawler", "technical audit", "internal links"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Google Trends",
+    category: "keyword",
+    desc: "Free tool for checking search interest, seasonality, market direction, and topic comparisons.",
+    url: "https://trends.google.com/",
+    tags: ["free", "trends", "seasonality"],
+    featured: false,
+    free: true,
+  },
+  {
+    name: "AlsoAsked",
+    category: "keyword",
+    desc: "Question research tool for mapping People Also Ask data into content briefs and FAQ sections.",
+    url: "https://alsoasked.com/",
+    tags: ["questions", "FAQ", "SERP"],
+    featured: false,
+    free: true,
+  },
+  {
+    name: "AnswerThePublic",
+    category: "keyword",
+    desc: "Search listening tool for discovering question-based content ideas and long-tail topics.",
+    url: "https://answerthepublic.com/",
+    tags: ["questions", "content ideas", "long-tail"],
+    featured: false,
+    free: true,
+  },
+  {
     name: "ChatGPT",
-    category: "writing",
-    desc: "通用 AI 助手，适合问答、写作、分析、代码和日常办公。",
+    category: "automation",
+    desc: "General AI assistant useful for content briefs, outlines, FAQ drafting, schema drafts, and editorial checklists.",
     url: "https://chatgpt.com/",
-    tags: ["对话", "写作", "办公"],
+    tags: ["briefs", "drafting", "checklists"],
     featured: true,
     free: true,
   },
   {
     name: "Claude",
-    category: "writing",
-    desc: "擅长长文档理解、结构化写作、代码协作和复杂推理。",
+    category: "automation",
+    desc: "AI assistant suited for long-form editing, source synthesis, content refresh planning, and structured reasoning.",
     url: "https://claude.ai/",
-    tags: ["长文本", "分析", "写作"],
-    featured: true,
-    free: true,
-  },
-  {
-    name: "Gemini",
-    category: "research",
-    desc: "Google 出品的多模态 AI 工具，适合资料整理和跨应用协作。",
-    url: "https://gemini.google.com/",
-    tags: ["搜索", "多模态", "Google"],
+    tags: ["editing", "long context", "analysis"],
     featured: true,
     free: true,
   },
   {
     name: "Perplexity",
-    category: "research",
-    desc: "带来源引用的 AI 搜索工具，适合快速调研和信息核验。",
+    category: "ai-search",
+    desc: "Answer engine with citations, useful for source discovery, topic research, and AI search visibility checks.",
     url: "https://www.perplexity.ai/",
-    tags: ["AI 搜索", "引用", "研究"],
+    tags: ["answer engine", "citations", "research"],
     featured: true,
     free: true,
   },
   {
-    name: "Midjourney",
-    category: "image",
-    desc: "高质量 AI 图像生成工具，适合概念图、视觉探索和创意海报。",
-    url: "https://www.midjourney.com/",
-    tags: ["绘图", "创意", "海报"],
-    featured: true,
-    free: false,
-  },
-  {
-    name: "Runway",
-    category: "video",
-    desc: "AI 视频生成和编辑平台，适合短片、广告素材和动态视觉。",
-    url: "https://runwayml.com/",
-    tags: ["视频", "生成", "剪辑"],
-    featured: true,
-    free: true,
-  },
-  {
-    name: "Cursor",
-    category: "code",
-    desc: "AI 原生代码编辑器，可理解项目上下文并辅助修改代码。",
-    url: "https://cursor.com/",
-    tags: ["IDE", "编程", "代码助手"],
-    featured: true,
-    free: true,
-  },
-  {
-    name: "GitHub Copilot",
-    category: "code",
-    desc: "集成在常见 IDE 中的代码补全和编程助手。",
-    url: "https://github.com/features/copilot",
-    tags: ["补全", "GitHub", "IDE"],
+    name: "Profound",
+    category: "ai-search",
+    desc: "AI search visibility platform for tracking how brands appear across answer engines and generative search.",
+    url: "https://www.tryprofound.com/",
+    tags: ["GEO", "brand visibility", "AI answers"],
     featured: false,
     free: false,
   },
   {
-    name: "Notion AI",
-    category: "productivity",
-    desc: "把 AI 写作、总结和知识库问答集成到 Notion 工作区。",
-    url: "https://www.notion.com/product/ai",
-    tags: ["知识库", "文档", "团队"],
+    name: "Peec AI",
+    category: "ai-search",
+    desc: "AI search analytics tool for monitoring brand visibility, mentions, and competitors in AI answer platforms.",
+    url: "https://peec.ai/",
+    tags: ["GEO", "mentions", "competitors"],
+    featured: false,
+    free: false,
+  },
+  {
+    name: "Rank Math Content AI",
+    category: "wordpress",
+    desc: "WordPress SEO assistant for content suggestions, keyword-focused guidance, and on-page optimization.",
+    url: "https://rankmath.com/content-ai/",
+    tags: ["WordPress", "on-page", "content AI"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Yoast AI",
+    category: "wordpress",
+    desc: "AI-assisted Yoast features for WordPress SEO titles, meta descriptions, and editorial optimization.",
+    url: "https://yoast.com/ai/",
+    tags: ["WordPress", "metadata", "editing"],
+    featured: false,
+    free: false,
+  },
+  {
+    name: "Link Whisper",
+    category: "wordpress",
+    desc: "Internal linking tool for WordPress sites, useful for topical clusters and maintaining link coverage.",
+    url: "https://linkwhisper.com/",
+    tags: ["internal links", "WordPress", "clusters"],
+    featured: true,
+    free: false,
+  },
+  {
+    name: "Shopify Magic",
+    category: "ecommerce",
+    desc: "Shopify's AI features for product descriptions, commerce workflows, and store content assistance.",
+    url: "https://www.shopify.com/magic",
+    tags: ["Shopify", "product copy", "commerce"],
+    featured: true,
+    free: true,
+  },
+  {
+    name: "Jasper",
+    category: "ecommerce",
+    desc: "AI marketing platform for product copy, campaigns, brand voice, and content production workflows.",
+    url: "https://www.jasper.ai/",
+    tags: ["product copy", "campaigns", "brand voice"],
     featured: false,
     free: true,
   },
   {
-    name: "Gamma",
-    category: "writing",
-    desc: "用 AI 快速生成演示文稿、网页式文档和方案稿。",
-    url: "https://gamma.app/",
-    tags: ["PPT", "方案", "演示"],
+    name: "Klaviyo AI",
+    category: "ecommerce",
+    desc: "AI features for ecommerce email, SMS, customer segmentation, and lifecycle marketing.",
+    url: "https://www.klaviyo.com/ai",
+    tags: ["email", "segments", "ecommerce"],
     featured: false,
     free: true,
   },
   {
-    name: "Canva AI",
-    category: "image",
-    desc: "集成在 Canva 里的图片、文案和版式生成能力。",
-    url: "https://www.canva.com/ai/",
-    tags: ["设计", "图片", "模板"],
+    name: "Gorgias",
+    category: "ecommerce",
+    desc: "Ecommerce customer support platform with automation and AI features that can surface product FAQ opportunities.",
+    url: "https://www.gorgias.com/",
+    tags: ["support", "FAQ", "Shopify"],
     featured: false,
-    free: true,
+    free: false,
   },
   {
     name: "Zapier AI",
-    category: "productivity",
-    desc: "用自然语言连接应用、搭建自动化流程和内部工具。",
+    category: "automation",
+    desc: "Automation platform for connecting SEO, spreadsheet, CMS, form, and reporting workflows with AI steps.",
     url: "https://zapier.com/ai",
-    tags: ["自动化", "工作流", "集成"],
-    featured: false,
-    free: true,
-  },
-  {
-    name: "ElevenLabs",
-    category: "video",
-    desc: "AI 语音生成与配音平台，适合播客、视频解说和多语言声音。",
-    url: "https://elevenlabs.io/",
-    tags: ["语音", "配音", "音频"],
-    featured: true,
-    free: true,
-  },
-  {
-    name: "Suno",
-    category: "video",
-    desc: "AI 音乐创作工具，可生成带人声的完整歌曲片段。",
-    url: "https://suno.com/",
-    tags: ["音乐", "音频", "创作"],
-    featured: false,
-    free: true,
-  },
-  {
-    name: "Kimi",
-    category: "research",
-    desc: "中文长文本 AI 助手，适合文档阅读、资料整理和知识问答。",
-    url: "https://kimi.moonshot.cn/",
-    tags: ["中文", "长文档", "阅读"],
+    tags: ["automation", "workflows", "integrations"],
     featured: false,
     free: true,
   },
@@ -274,8 +374,8 @@ function createToolCard(tool) {
   favorite.className = `favorite ${favoriteActive ? "is-active" : ""}`;
   favorite.type = "button";
   favorite.dataset.favorite = tool.name;
-  favorite.setAttribute("aria-label", `${favoriteActive ? "取消收藏" : "收藏"} ${tool.name}`);
-  favorite.textContent = "★";
+  favorite.setAttribute("aria-label", `${favoriteActive ? "Remove favorite" : "Save favorite"} ${tool.name}`);
+  favorite.textContent = "*";
 
   head.append(title, favorite);
 
@@ -300,13 +400,13 @@ function createToolCard(tool) {
   if (tool.featured) {
     const featured = document.createElement("span");
     featured.className = "badge featured";
-    featured.textContent = "精选";
+    featured.textContent = "Featured";
     meta.append(featured);
   }
 
   const pricing = document.createElement("span");
   pricing.className = `badge ${tool.free ? "free" : ""}`;
-  pricing.textContent = tool.free ? "含免费版" : "付费";
+  pricing.textContent = tool.free ? "Free tier" : "Paid";
   meta.append(pricing);
 
   const link = document.createElement("a");
@@ -314,7 +414,7 @@ function createToolCard(tool) {
   link.href = tool.url;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
-  link.textContent = "访问";
+  link.textContent = "Visit";
 
   footer.append(meta, link);
   card.append(head, desc, tags, footer);
@@ -325,7 +425,7 @@ function createToolCard(tool) {
 function renderTools() {
   const filtered = filterTools();
   els.toolGrid.replaceChildren(...filtered.map(createToolCard));
-  els.resultCount.textContent = `${filtered.length} 个工具`;
+  els.resultCount.textContent = `${filtered.length} tools`;
   els.emptyState.hidden = filtered.length > 0;
 }
 
@@ -335,13 +435,13 @@ function createArticleCard(article) {
   card.href = `articles/${article.html}`;
 
   const meta = document.createElement("span");
-  meta.textContent = `${String(article.id).padStart(3, "0")} · ${article.keyword}`;
+  meta.textContent = `${String(article.id).padStart(3, "0")} / ${article.keyword}`;
 
   const title = document.createElement("strong");
   title.textContent = article.title;
 
   const source = document.createElement("small");
-  source.textContent = `来源：${article.source}`;
+  source.textContent = `Source: ${article.source}`;
 
   card.append(meta, title, source);
   return card;
@@ -354,15 +454,13 @@ async function renderFeaturedArticles() {
     const response = await fetch("articles/index.json");
     if (!response.ok) throw new Error("Failed to load articles");
     const articles = await response.json();
-    const featured = [0, 6, 7, 27, 62, 80]
-      .map((index) => articles[index])
-      .filter(Boolean);
+    const featured = [0, 5, 10, 35, 55, 90].map((index) => articles[index]).filter(Boolean);
 
     els.metricArticles.textContent = articles.length;
     els.featuredArticleGrid.replaceChildren(...featured.map(createArticleCard));
   } catch (error) {
     els.featuredArticleGrid.innerHTML =
-      '<p class="article-load-error">文章列表暂时没有加载成功，请直接进入文章索引页查看。</p>';
+      '<p class="article-load-error">The article list could not be loaded. Open the article index directly.</p>';
   }
 }
 

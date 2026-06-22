@@ -1,40 +1,34 @@
-# AI Pilot 工具导航站
+# AI Pilot
 
-这是一个无需构建工具的静态 AI 工具导航网站。
+AI Pilot is a dark, minimalist AI SEO tools directory designed for a focused overseas content site.
 
-## 运行方式
+## Focus
 
-直接双击 `index.html` 即可打开。
+- Primary niche: AI SEO tools, AI content optimization, keyword research, AI search visibility, and SEO workflows.
+- Adjacent subtopic: AI ecommerce SEO for product pages, collection pages, FAQs, structured data, and Shopify or WooCommerce workflows.
+- Paused topics: general AI tool directory and AI office automation.
 
-也可以在当前目录启动本地服务器，不需要安装任何 npm 包：
+## What is included
+
+- English-only homepage.
+- AI SEO tool directory with categories and filters.
+- Sponsor-ready ad placements.
+- 100 English AI SEO articles generated into `articles/`.
+- Each article includes data, a concrete case, source links, practical steps, and FAQ content.
+
+## Run locally
 
 ```powershell
+node generate_articles.js
 node local-server.js
 ```
 
-然后访问 `http://127.0.0.1:8080`。
+Then open `http://127.0.0.1:8080`.
 
-## 修改内容
+## Deploy
 
-- 工具列表：编辑 `script.js` 里的 `tools`
-- 分类：编辑 `script.js` 里的 `categories`
-- 广告位文案和链接：编辑 `index.html` 中带有 `ad-slot` 的区域
-- 颜色和布局：编辑 `styles.css` 里的 `:root` 变量和对应样式
-
-## 部署到 Vercel 免费版
-
-自动发布：
+The project is static and can be deployed on Vercel's free plan.
 
 ```powershell
-.\publish.ps1
+vercel.cmd deploy --prod --yes
 ```
-
-脚本会创建 GitHub 公共仓库、推送代码，并用当前登录的 Vercel 账号部署生产环境。
-
-如果手动导入：
-
-1. 把代码推送到 GitHub 仓库。
-2. 登录 Vercel，选择 `Add New Project`。
-3. 导入这个 GitHub 仓库。
-4. Framework Preset 选择 `Other`，Build Command 留空，Output Directory 留空。
-5. 点击 `Deploy`。

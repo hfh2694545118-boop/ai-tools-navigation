@@ -1,43 +1,40 @@
-# AI Pilot 出海内容站运营路线
+# AI Pilot Roadmap
 
-## 核心定位
+## Current Positioning
 
-当前只做一个网站，不拆多个站。定位收敛为：
+AI Pilot should stay focused on one primary niche before splitting into multiple sites.
 
-- 主赛道：AI SEO 工具导航
-- 副赛道：AI 电商运营工具
+- Primary niche: AI SEO tools and workflows.
+- Adjacent subtopic: AI ecommerce SEO.
+- Deferred: AI office automation and a broad general AI tools directory.
 
-AI 办公自动化工具、AI 工具出海导航暂时保留为后续扩展方向，但不作为当前内容生产重点。
+## Phase 1: Foundation
 
-目标不是做泛 AI 资讯站，而是先把一个有购买意图的工具评测、案例和转化站做深。
+- Keep all public content in English.
+- Maintain the 20 high-buying-intent AI SEO keyword list.
+- Publish comparison pages for the first 10 keywords.
+- Keep the 100-article library aligned with the AI SEO and ecommerce SEO niche.
+- Add affiliate disclosure before adding commercial links.
 
-## 第 1 阶段：定位和页面结构
+## Phase 2: Monetization
 
-- 首页突出主赛道 AI SEO 和副赛道 AI 电商运营。
-- AI SEO 先准备 20 个高意图关键词。
-- AI 电商运营先准备 10 个相邻关键词。
-- 工具库优先补齐 SEO、内容优化、电商运营相关工具到 50 个以上。
-- 保留真实案例文章，但逐步补充工具推荐和 CTA。
-- AI SEO 主赛道关键词表见 `content-plan/ai-seo-keywords.md`。
+- Add affiliate links for SEO tools where programs are available.
+- Create sponsor placements for tool vendors, ecommerce apps, templates, and training products.
+- Add downloadable SEO brief templates and ecommerce product-page checklists.
+- Track clicks on outbound tool links and sponsor blocks.
 
-## 第 2 阶段：内容转化
+## Phase 3: Authority
 
-- AI SEO 先做 10 篇英文或双语文章。
-- AI 电商运营先做 5 篇英文或双语文章。
-- 每篇文章加入 3-5 个工具推荐。
-- 每个推荐工具写清楚适合谁、不适合谁、免费版限制和价格入口。
-- 文章末尾加入下一步动作：查看工具、下载模板、订阅更新或联系合作。
+- Add real screenshots and hands-on notes to tool comparison pages.
+- Connect articles into topic clusters: keyword research, content optimization, technical SEO, ecommerce SEO, WordPress SEO, AI search visibility.
+- Add author, update date, source list, and editorial policy pages.
+- Use Google Search Console data to refresh pages with impressions but low CTR.
 
-## 第 3 阶段：流量验证
+## Phase 4: Expansion Decision
 
-- 接入 Google Search Console。
-- 每周看曝光、点击、排名词和被收录页面。
-- 优先优化有曝光但点击率低的标题。
-- 把有点击的主题扩展成工具对比页。
+Only consider a second website after the AI SEO site has measurable organic search traffic and at least one monetization path.
 
-## 第 4 阶段：变现
+Possible future split:
 
-- 优先申请 SEO 工具、电商工具、内容优化工具联盟计划。
-- 给工具卡片增加 affiliate 标识和免责声明。
-- 只保留与频道相关的赞助位。
-- 记录每个链接的点击和转化，淘汰无收益工具。
+- `ai-seo-tools` site remains the authority site.
+- `ai-ecommerce-tools` becomes a separate site only if ecommerce pages show strong search demand and conversions.

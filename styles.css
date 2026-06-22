@@ -134,7 +134,7 @@ code {
 
 .brand small,
 .eyebrow,
-.terminal-line,
+.proof-list span,
 .ad-slot span,
 .tool-category,
 .tool-meta,
@@ -300,11 +300,22 @@ h3 {
   font-weight: 800;
 }
 
-.terminal-line {
+.proof-list {
+  display: grid;
+  gap: 0;
+}
+
+.proof-list p {
+  display: grid;
+  gap: 0.15rem;
   margin: 0;
   border-top: 1px solid rgba(37, 49, 63, 0.7);
-  font-family: var(--font-mono);
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1rem;
+}
+
+.proof-list strong {
+  color: var(--text);
+  font-size: 0.92rem;
 }
 
 .ad-slot {
@@ -347,12 +358,21 @@ h3 {
   padding: 2.5rem 0 1rem;
 }
 
-.directory-head {
+.directory-head,
+.section-heading {
   display: flex;
   align-items: end;
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.featured-articles {
+  padding: 2.5rem 0 0;
+}
+
+.compact-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .search-panel {
@@ -676,13 +696,6 @@ h3 {
   font-size: 1.25rem;
 }
 
-.sponsor-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  padding: 1rem 0 3rem;
-}
-
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -777,6 +790,14 @@ h3 {
   line-height: 1.45;
 }
 
+.article-load-error {
+  grid-column: 1 / -1;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius);
+  color: var(--muted);
+  padding: 1rem;
+}
+
 @media (max-width: 960px) {
   .hero,
   .content-grid {
@@ -801,6 +822,7 @@ h3 {
 
   .nav-shell,
   .directory-head,
+  .section-heading,
   .toolbar,
   .site-footer {
     align-items: stretch;
@@ -825,7 +847,6 @@ h3 {
   }
 
   .sidebar,
-  .sponsor-row,
   .tool-grid,
   .article-list {
     grid-template-columns: 1fr;

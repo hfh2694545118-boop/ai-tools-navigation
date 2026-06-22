@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="AI Pilot 是一个简洁深色调的 AI 工具导航网站，支持分类、搜索、筛选、收藏和广告位。"
+      content="AI Pilot 收录常用 AI 工具和 100 篇真实案例文章，覆盖写作、绘图、视频、编程、办公、营销、搜索和自动化。"
     />
+    <meta property="og:title" content="AI Pilot | AI 工具导航与真实案例文章" />
+    <meta
+      property="og:description"
+      content="浏览 AI 工具、查看真实业务案例和可核验数据，快速找到适合你的 AI 应用场景。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ai-tools-navigation-chi.vercel.app/" />
+    <link rel="canonical" href="https://ai-tools-navigation-chi.vercel.app/" />
     <title>AI Pilot | AI 工具导航</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -24,8 +32,8 @@
         <div class="nav-links" aria-label="页面快捷入口">
           <a href="#tools">工具库</a>
           <a href="#categories">分类</a>
-          <a href="articles/index.html">AI文章</a>
-          <a href="#ads">广告合作</a>
+          <a href="#featuredArticles">案例文章</a>
+          <a href="#ads">合作</a>
         </div>
       </nav>
     </header>
@@ -33,15 +41,14 @@
     <main>
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">精选、可搜索、可扩展</p>
-          <h1 id="hero-title">把常用 AI 工具整理成一张清爽的深色导航图。</h1>
+          <p class="eyebrow">工具导航 + 真实案例</p>
+          <h1 id="hero-title">找到真正能落地的 AI 工具和使用场景。</h1>
           <p class="hero-text">
-            适合个人站长、团队内部门户或垂直 AI 资源站。分类、搜索、筛选、收藏和广告位都已经内置，直接修改
-            <code>script.js</code> 里的数据即可维护。
+            收录常用 AI 工具，并整理 100 篇带真实数据、公司案例和来源链接的 AI 应用文章，帮你少看空话，直接判断哪个场景值得试。
           </p>
           <div class="hero-actions" aria-label="核心操作">
             <a class="button primary" href="#tools">浏览工具</a>
-            <a class="button secondary" href="#ads">查看广告位</a>
+            <a class="button secondary" href="#featuredArticles">读案例文章</a>
           </div>
         </div>
 
@@ -61,22 +68,39 @@
               <dd id="metricTools">0</dd>
             </div>
             <div>
-              <dt>广告位</dt>
-              <dd>4</dd>
+              <dt>案例</dt>
+              <dd id="metricArticles">100</dd>
             </div>
           </dl>
-          <p class="terminal-line">status: navigation_ready</p>
-          <p class="terminal-line">mode: dark_compact</p>
-          <p class="terminal-line">data: editable_in_script.js</p>
+          <div class="proof-list">
+            <p><strong>19 个来源</strong><span>McKinsey、Microsoft、GitHub、OpenAI 等</span></p>
+            <p><strong>真实案例</strong><span>Klarna、Morgan Stanley、Moderna、Mayo Clinic 等</span></p>
+            <p><strong>快速筛选</strong><span>按分类、精选和免费版查找工具</span></p>
+          </div>
         </aside>
       </section>
 
       <section id="ads" class="section-shell">
-        <a class="ad-slot ad-leaderboard" href="#" aria-label="顶部横幅广告位">
-          <span>广告位 A</span>
-          <strong>顶部横幅 1200 × 120</strong>
-          <small>可放品牌活动、SaaS 推荐、联盟链接</small>
+        <a class="ad-slot ad-leaderboard" href="mailto:hello@example.com" aria-label="AI 工具合作推荐位">
+          <span>合作推荐</span>
+          <strong>优质 AI 工具 / 课程 / 社群合作位</strong>
+          <small>仅建议放和 AI 效率、创作、开发、办公相关的真实产品</small>
         </a>
+      </section>
+
+      <section
+        id="featuredArticles"
+        class="featured-articles section-shell"
+        aria-labelledby="featured-articles-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Case studies</p>
+            <h2 id="featured-articles-title">AI 真实案例文章</h2>
+          </div>
+          <a class="text-button" href="articles/index.html">查看全部 100 篇</a>
+        </div>
+        <div id="featuredArticleGrid" class="article-list compact-list" aria-live="polite"></div>
       </section>
 
       <section id="tools" class="directory section-shell" aria-labelledby="tools-title">
@@ -120,10 +144,10 @@
               <div id="categorySummary" class="category-summary"></div>
             </section>
 
-            <a class="ad-slot ad-vertical" href="#" aria-label="侧栏广告位">
-              <span>广告位 B</span>
-              <strong>侧栏竖版</strong>
-              <small>300 × 420，适合长期合作展示</small>
+            <a class="ad-slot ad-vertical" href="mailto:hello@example.com" aria-label="侧栏合作推荐位">
+              <span>合作位</span>
+              <strong>推荐真实可用的 AI 产品</strong>
+              <small>适合工具、课程、资料包或社群入口</small>
             </a>
           </aside>
 
@@ -142,22 +166,10 @@
         </div>
       </section>
 
-      <section class="section-shell sponsor-row" aria-label="更多广告位">
-        <a class="ad-slot ad-inline" href="#">
-          <span>广告位 C</span>
-          <strong>工具列表中插</strong>
-          <small>适合新品发布、限时折扣</small>
-        </a>
-        <a class="ad-slot ad-inline" href="#">
-          <span>广告位 D</span>
-          <strong>底部合作位</strong>
-          <small>适合公众号、社群、课程导流</small>
-        </a>
-      </section>
     </main>
 
     <footer class="site-footer section-shell">
-      <p>AI Pilot © 2026. 修改工具和广告内容请编辑 <code>script.js</code>。</p>
+      <p>AI Pilot © 2026. AI 工具导航与真实案例文章库。</p>
       <a href="#hero-title">返回顶部</a>
     </footer>
 

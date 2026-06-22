@@ -167,6 +167,8 @@ const els = {
   emptyState: document.querySelector("#emptyState"),
   metricCategories: document.querySelector("#metricCategories"),
   metricTools: document.querySelector("#metricTools"),
+  metricArticles: document.querySelector("#metricArticles"),
+  featuredArticleGrid: document.querySelector("#featuredArticleGrid"),
 };
 
 function getCategoryName(id) {
@@ -327,6 +329,43 @@ function renderTools() {
   els.emptyState.hidden = filtered.length > 0;
 }
 
+function createArticleCard(article) {
+  const card = document.createElement("a");
+  card.className = "article-list-card";
+  card.href = `articles/${article.html}`;
+
+  const meta = document.createElement("span");
+  meta.textContent = `${String(article.id).padStart(3, "0")} · ${article.keyword}`;
+
+  const title = document.createElement("strong");
+  title.textContent = article.title;
+
+  const source = document.createElement("small");
+  source.textContent = `来源：${article.source}`;
+
+  card.append(meta, title, source);
+  return card;
+}
+
+async function renderFeaturedArticles() {
+  if (!els.featuredArticleGrid) return;
+
+  try {
+    const response = await fetch("articles/index.json");
+    if (!response.ok) throw new Error("Failed to load articles");
+    const articles = await response.json();
+    const featured = [0, 6, 7, 27, 62, 80]
+      .map((index) => articles[index])
+      .filter(Boolean);
+
+    els.metricArticles.textContent = articles.length;
+    els.featuredArticleGrid.replaceChildren(...featured.map(createArticleCard));
+  } catch (error) {
+    els.featuredArticleGrid.innerHTML =
+      '<p class="article-load-error">文章列表暂时没有加载成功，请直接进入文章索引页查看。</p>';
+  }
+}
+
 function resetFilters() {
   state.category = "all";
   state.query = "";
@@ -387,8 +426,10 @@ function render() {
 function init() {
   els.metricCategories.textContent = categories.length - 1;
   els.metricTools.textContent = tools.length;
+  els.metricArticles.textContent = "100";
   renderSummary();
   render();
+  renderFeaturedArticles();
   bindEvents();
 }
 

@@ -15,11 +15,13 @@ AI Pilot is a dark, minimalist AI SEO tools directory designed for a focused ove
 - Sponsor-ready ad placements.
 - 100 English AI SEO articles generated into `articles/`.
 - Each article includes data, a concrete case, source links, practical steps, and FAQ content.
+- Tool click tracking through noindex redirect pages under `go/`.
 
 ## Run locally
 
 ```powershell
 node generate_articles.js
+node generate_redirects.js
 node local-server.js
 ```
 

@@ -345,6 +345,14 @@ function getInitials(name) {
     .toUpperCase();
 }
 
+function slugifyToolName(name) {
+  return name
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 function createToolCard(tool) {
   const card = document.createElement("article");
   card.className = "tool-card";
@@ -411,9 +419,12 @@ function createToolCard(tool) {
 
   const link = document.createElement("a");
   link.className = "tool-link";
-  link.href = tool.url;
+  link.href = `go/${slugifyToolName(tool.name)}.html`;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
+  link.dataset.toolClick = tool.name;
+  link.dataset.toolCategory = getCategoryName(tool.category);
+  link.dataset.externalUrl = tool.url;
   link.textContent = "Visit";
 
   footer.append(meta, link);
@@ -502,6 +513,18 @@ function bindEvents() {
   document.querySelector("[data-reset]").addEventListener("click", resetFilters);
 
   els.toolGrid.addEventListener("click", (event) => {
+    const toolLink = event.target.closest("[data-tool-click]");
+    if (toolLink && window.va) {
+      window.va("event", {
+        name: "Tool click",
+        data: {
+          tool: toolLink.dataset.toolClick,
+          category: toolLink.dataset.toolCategory,
+        },
+      });
+      return;
+    }
+
     const button = event.target.closest("[data-favorite]");
     if (!button) return;
 

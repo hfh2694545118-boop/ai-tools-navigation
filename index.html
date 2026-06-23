@@ -17,8 +17,37 @@
     <link rel="canonical" href="https://ai-tools-navigation-chi.vercel.app/" />
     <title>AI Pilot | AI SEO Tools Directory</title>
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AI Pilot",
+        "url": "https://ai-tools-navigation-chi.vercel.app/",
+        "description": "Focused AI SEO tools directory with ecommerce SEO workflows, tool comparisons, and data-backed articles.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ai-tools-navigation-chi.vercel.app/articles/index.html?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "AI SEO Tool Categories",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Content Optimization" },
+          { "@type": "ListItem", "position": 2, "name": "Keyword Research" },
+          { "@type": "ListItem", "position": 3, "name": "Technical SEO" },
+          { "@type": "ListItem", "position": 4, "name": "Ecommerce SEO" },
+          { "@type": "ListItem", "position": 5, "name": "AI Search Visibility" }
+        ]
+      }
+    </script>
   </head>
   <body>
+    <a class="skip-link" href="#tools">Skip to tools</a>
     <header class="site-header">
       <nav class="nav-shell" aria-label="Main navigation">
         <a class="brand" href="#" aria-label="AI Pilot home">
@@ -34,6 +63,7 @@
           <a href="#channels">Strategy</a>
           <a href="#featuredArticles">Articles</a>
           <a href="#ads">Sponsor</a>
+          <a href="editorial-policy.html">Editorial Policy</a>
         </div>
       </nav>
     </header>
@@ -116,12 +146,69 @@
         </div>
       </section>
 
+      <section class="section-shell trust-strip" aria-label="Editorial trust signals">
+        <div>
+          <strong>Evidence-first content</strong>
+          <span>Every long-form article includes a source link, concrete case, and workflow checklist.</span>
+        </div>
+        <div>
+          <strong>Niche discipline</strong>
+          <span>Broad AI topics are excluded unless they support AI SEO or ecommerce SEO.</span>
+        </div>
+        <div>
+          <strong>Commercial transparency</strong>
+          <span>Affiliate and sponsor placements are separated from editorial recommendations.</span>
+        </div>
+      </section>
+
       <section id="ads" class="section-shell">
         <a class="ad-slot ad-leaderboard" href="mailto:hello@example.com" aria-label="Sponsored placement">
           <span>Sponsored placement</span>
           <strong>Promote an AI SEO tool, ecommerce SEO app, course, or template</strong>
           <small>Best fit: tools with real use cases for content teams, publishers, affiliates, and ecommerce operators.</small>
         </a>
+      </section>
+
+      <section class="section-shell keyword-roadmap" aria-labelledby="keyword-roadmap-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SEO roadmap</p>
+            <h2 id="keyword-roadmap-title">High-intent pages to build next</h2>
+          </div>
+          <p class="section-note">These are the commercial pages that should receive the most editing, screenshots, affiliate links, and internal links.</p>
+        </div>
+        <div class="roadmap-grid">
+          <article>
+            <span>P0</span>
+            <h3>Best AI SEO tools</h3>
+            <p>Main comparison page for content teams, niche sites, and affiliate publishers.</p>
+          </article>
+          <article>
+            <span>P0</span>
+            <h3>Best AI content optimization tools</h3>
+            <p>Comparison page for Surfer SEO, Frase, Clearscope, MarketMuse, and alternatives.</p>
+          </article>
+          <article>
+            <span>P1</span>
+            <h3>AI SEO tools for ecommerce</h3>
+            <p>Product pages, category pages, product FAQs, structured data, and review mining.</p>
+          </article>
+          <article>
+            <span>P1</span>
+            <h3>Frase vs Surfer SEO</h3>
+            <p>Decision page for buyers comparing brief creation, optimization, and workflow fit.</p>
+          </article>
+          <article>
+            <span>P2</span>
+            <h3>GEO tools for AI search visibility</h3>
+            <p>Track brand mentions and citations in ChatGPT, Perplexity, and AI answer engines.</p>
+          </article>
+          <article>
+            <span>P2</span>
+            <h3>AI SEO tool for WordPress</h3>
+            <p>Cluster for Rank Math, Yoast, Link Whisper, and WordPress publishing workflows.</p>
+          </article>
+        </div>
       </section>
 
       <section
@@ -201,11 +288,39 @@
           </section>
         </div>
       </section>
+
+      <section class="section-shell operations" aria-labelledby="operations-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Operating system</p>
+            <h2 id="operations-title">What to optimize before adding more articles</h2>
+          </div>
+        </div>
+        <div class="operations-grid">
+          <article>
+            <h3>1. Add real screenshots</h3>
+            <p>Tool comparison pages should show product UI, feature limits, pricing entry points, and a hands-on verdict.</p>
+          </article>
+          <article>
+            <h3>2. Add affiliate disclosure</h3>
+            <p>Commercial pages should disclose affiliate relationships clearly before outbound tool links.</p>
+          </article>
+          <article>
+            <h3>3. Build topic clusters</h3>
+            <p>Connect articles around keyword research, content optimization, ecommerce SEO, WordPress SEO, and AI search visibility.</p>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer section-shell">
       <p>AI Pilot (c) 2026. Focused AI SEO tools, data-backed articles, and sponsor-ready placements.</p>
-      <a href="#hero-title">Back to top</a>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="editorial-policy.html">Editorial Policy</a>
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+        <a href="#hero-title">Back to top</a>
+      </div>
     </footer>
 
     <script src="script.js"></script>

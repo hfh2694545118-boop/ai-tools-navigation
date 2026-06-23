@@ -452,6 +452,24 @@ function articleHtml({ title, keyword, description, markdown, html, prev, next }
     <meta name="keywords" content="${escapeHtml(keyword)}, AI SEO, ecommerce SEO, AI content optimization, AI SEO tools" />
     <link rel="canonical" href="${SITE_URL}/articles/${escapeHtml(html)}" />
     <link rel="stylesheet" href="../styles.css" />
+    <script type="application/ld+json">
+      ${JSON.stringify(
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: title,
+          description,
+          keywords: [keyword, "AI SEO", "ecommerce SEO", "AI content optimization"],
+          author: { "@type": "Organization", name: "AI Pilot Editorial Desk" },
+          publisher: { "@type": "Organization", name: "AI Pilot" },
+          datePublished: "2026-06-22",
+          dateModified: "2026-06-22",
+          mainEntityOfPage: `${SITE_URL}/articles/${html}`,
+        },
+        null,
+        6,
+      )}
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -484,7 +502,9 @@ function articleHtml({ title, keyword, description, markdown, html, prev, next }
 function articleIndexHtml(index) {
   const cards = index
     .map(
-      (item) => `<a class="article-list-card" href="${item.html}">
+      (item) => `<a class="article-list-card" href="${item.html}" data-article-card data-search="${escapeHtml(
+        `${item.title} ${item.keyword} ${item.source}`.toLowerCase(),
+      )}">
         <span>${String(item.id).padStart(3, "0")} / ${escapeHtml(item.keyword)}</span>
         <strong>${escapeHtml(item.title)}</strong>
         <small>${item.wordCount} words / data, case, source</small>
@@ -520,10 +540,31 @@ function articleIndexHtml(index) {
         <h1>100 AI SEO Articles With Data, Cases, and Sources</h1>
         <p>Every article is written for the focused niche: AI SEO tools, content optimization, AI search visibility, WordPress SEO, and ecommerce SEO workflows. Unrelated broad AI topics have been removed.</p>
       </section>
+      <div class="article-filter">
+        <label class="sr-only" for="articleSearch">Search articles</label>
+        <input id="articleSearch" type="search" placeholder="Search articles: ecommerce, WordPress, Frase, GEO..." autocomplete="off" />
+      </div>
       <section id="article-list" class="article-list">
         ${cards}
       </section>
     </main>
+    <script>
+      const articleSearch = document.querySelector("#articleSearch");
+      const articleCards = [...document.querySelectorAll("[data-article-card]")];
+      const params = new URLSearchParams(window.location.search);
+      const initialQuery = params.get("q") || "";
+      if (initialQuery) articleSearch.value = initialQuery;
+
+      function filterArticles() {
+        const query = articleSearch.value.trim().toLowerCase();
+        articleCards.forEach((card) => {
+          card.hidden = query && !card.dataset.search.includes(query);
+        });
+      }
+
+      articleSearch.addEventListener("input", filterArticles);
+      filterArticles();
+    </script>
   </body>
 </html>
 `;
@@ -608,6 +649,9 @@ function run() {
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     `  <url><loc>${SITE_URL}/</loc></url>`,
     `  <url><loc>${SITE_URL}/articles/</loc></url>`,
+    `  <url><loc>${SITE_URL}/about.html</loc></url>`,
+    `  <url><loc>${SITE_URL}/editorial-policy.html</loc></url>`,
+    `  <url><loc>${SITE_URL}/affiliate-disclosure.html</loc></url>`,
     ...jsonIndex.map((item) => `  <url><loc>${SITE_URL}/articles/${item.html}</loc></url>`),
     "</urlset>",
     "",

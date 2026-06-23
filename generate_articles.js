@@ -320,6 +320,13 @@ function markdownBodyToHtml(markdown) {
     .join("\n");
 }
 
+function analyticsSnippet() {
+  return `    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>`;
+}
+
 function wordCount(markdown) {
   return markdown
     .replace(/^---[\s\S]*?---/, "")
@@ -494,6 +501,7 @@ function articleHtml({ title, keyword, description, markdown, html, prev, next }
         </nav>
       </article>
     </main>
+${analyticsSnippet()}
   </body>
 </html>
 `;
@@ -565,6 +573,7 @@ function articleIndexHtml(index) {
       articleSearch.addEventListener("input", filterArticles);
       filterArticles();
     </script>
+${analyticsSnippet()}
   </body>
 </html>
 `;

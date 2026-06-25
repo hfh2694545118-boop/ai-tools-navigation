@@ -41,7 +41,7 @@ const tools = [
     name: "Frase",
     category: "content",
     desc: "AI SEO platform for research, briefs, content optimization, and visibility tracking across search and answer engines.",
-    url: "https://www.frase.io/",
+    url: "https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=1to6s2",
     tags: ["briefs", "optimization", "AI search"],
     featured: true,
     free: true,

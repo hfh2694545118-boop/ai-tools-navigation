@@ -5,7 +5,7 @@ const tools = [
   ["Semrush", "https://www.semrush.com/"],
   ["Ahrefs", "https://ahrefs.com/"],
   ["Surfer SEO", "https://surferseo.com/"],
-  ["Frase", "https://www.frase.io/"],
+  ["Frase", "https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=1to6s2"],
   ["Clearscope", "https://www.clearscope.io/"],
   ["MarketMuse", "https://www.marketmuse.com/"],
   ["SE Ranking", "https://seranking.com/"],
@@ -57,6 +57,7 @@ function redirectHtml(name, url) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Redirect page for ${safeName}, used to measure outbound AI SEO tool clicks from AI Pilot." />
     <meta name="robots" content="noindex, nofollow" />
     <meta http-equiv="refresh" content="1; url=${safeUrl}" />
     <title>Redirecting to ${safeName} | AI Pilot</title>
@@ -89,7 +90,7 @@ function indexHtml() {
   const links = tools
     .map(([name]) => {
       const slug = slugifyToolName(name);
-      return `<a class="article-list-card" href="${slug}.html"><strong>${escapeHtml(name)}</strong><small>/go/${slug}.html</small></a>`;
+      return `<a class="article-list-card" href="${slug}"><strong>${escapeHtml(name)}</strong><small>/go/${slug}</small></a>`;
     })
     .join("\n");
 
@@ -98,6 +99,7 @@ function indexHtml() {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Internal noindex index of AI Pilot outbound tool redirect pages." />
     <meta name="robots" content="noindex, nofollow" />
     <title>Tool Redirect Pages | AI Pilot</title>
     <link rel="stylesheet" href="../styles.css" />
